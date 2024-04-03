@@ -1,0 +1,74 @@
+{
+  "objectInfo" : {
+    "id" : "dQx0A7vZ4Q0bwLckly7UCV",
+    "name" : "mplt_DEU_ID_Card_Number_Standardize",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000068"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet formats a 9 to 11 character Germany ID Card number, regardless of spacing or punctuation. \n\nInputs not equal 9, 10 or 11 and less than 8 characters or grater than 11 will be returned as is.\n\nValid formats returned are nnnnnnnnn, nnnnnnnnnn, nnnnnnnnnnn\n\nTags: Germany, Completeness, High",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.598Z",
+  "objectRefs" : [ {
+    "id" : "ar5lMBholGgjxaadl0b5cR",
+    "name" : "mplt_Remove_Punctuation_and_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000055"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all punctuation symbols and character spaces from an input field, and returns the remaining digits and letters.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  }, {
+    "id" : "3fZgprGmTKrcVwMIikEry7",
+    "name" : "mplt_UpperCase",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000005A"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Changes alphabetic characters to uppercase.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  } ]
+}

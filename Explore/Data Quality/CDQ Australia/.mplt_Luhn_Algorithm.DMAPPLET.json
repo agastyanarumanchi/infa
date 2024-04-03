@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "0b2ypfdh6xqi7nlbL5Kcie",
+    "name" : "mplt_Luhn_Algorithm",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000076"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet applies the Luhn algorithm, a mod 10 calculation commonly used for Credit Card number check digit validation, to an input value.\nReturns Valid if the supplied check digit matches the calculated value, Invalid if not.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.838Z",
+  "objectRefs" : [ {
+    "id" : "2csSdQZKBNceniFqXVYKgY",
+    "name" : "lbl_Non_Digit_Chars",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2csSdQZKBNceniFqXVYKgY"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labels all non-digit chars consistently to remove",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "2JB41h3FM22cBLofT2Y6W9",
+    "name" : "c_Remove_Non_Digit_Chars",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2JB41h3FM22cBLofT2Y6W9"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes 'X', 'S', and '_' Characters.  Precede by Label_Non_Digit_Chars Labeller to label all non-digit chars accurately. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

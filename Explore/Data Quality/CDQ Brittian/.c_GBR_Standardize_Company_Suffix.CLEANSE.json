@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "9Cq3Pe2h5mMkvQ1Y7PIbCE",
+    "name" : "c_GBR_Standardize_Company_Suffix",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9Cq3Pe2h5mMkvQ1Y7PIbCE"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes company name suffix for GBR.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.360Z",
+  "objectRefs" : [ {
+    "id" : "7DYrfc1AmkFiuT2zOjT6Aa",
+    "name" : "gbr_company_sufx_abrv_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7DYrfc1AmkFiuT2zOjT6Aa"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The dictionary contains company suffix abbreviations for GBR ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

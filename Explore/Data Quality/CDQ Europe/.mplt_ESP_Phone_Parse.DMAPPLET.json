@@ -1,0 +1,114 @@
+{
+  "objectInfo" : {
+    "id" : "4Sp6hkye5YfgyoashACrMZ",
+    "name" : "mplt_ESP_Phone_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000005E"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "The rules parses a Spanish phone number from a larger string,\n\nTags: Spain, Parse, Conformity, Accuracy",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.377Z",
+  "objectRefs" : [ {
+    "id" : "k1WP16svTuWfHsJKTj5eaz",
+    "name" : "p_esp_phone",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "k1WP16svTuWfHsJKTj5eaz"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a phone number for Spain from a string input.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  }, {
+    "id" : "8qga9mWluZIisaa4ijy5uI",
+    "name" : "c_Merge_Parse_Text",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8qga9mWluZIisaa4ijy5uI"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Merge the Columns- Before, After, Overflow and Unparsed from the parser. Remove multiple spaces, leading and trailing spaces.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  }, {
+    "id" : "gZEsnBrD08whoYj7SOQFm3",
+    "name" : "mplt_Remove_Non_Numbers",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000054"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all characters that are not a digit or number from an input string.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  }, {
+    "id" : "ar5lMBholGgjxaadl0b5cR",
+    "name" : "mplt_Remove_Punctuation_and_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000055"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all punctuation symbols and character spaces from an input field, and returns the remaining digits and letters.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  } ]
+}

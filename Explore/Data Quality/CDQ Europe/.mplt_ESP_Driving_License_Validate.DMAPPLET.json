@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "6PC6I2RazCLkYPYWmV6na7",
+    "name" : "mplt_ESP_Driving_License_Validate",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000005U"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet checks if input string is a valid driving license number in Spain.\n\nTags: Customer, Europe, Validate, Spain, Driving license",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.176Z",
+  "objectRefs" : [ {
+    "id" : "91jZv1PnnPWc72sCK09T8d",
+    "name" : "lbl_esp_dl",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "91jZv1PnnPWc72sCK09T8d"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates a driving license number for Spain.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  }, {
+    "id" : "ar5lMBholGgjxaadl0b5cR",
+    "name" : "mplt_Remove_Punctuation_and_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000055"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all punctuation symbols and character spaces from an input field, and returns the remaining digits and letters.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  } ]
+}

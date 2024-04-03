@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "70sgIF87N5QbwytvVBjAMe",
+    "name" : "v_BRA_AddressValidation_Multiline",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "70sgIF87N5QbwytvVBjAMe"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verifies the address in multiline format including country, formatted address lines and status codes.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.689Z",
+  "objectRefs" : [ ]
+}

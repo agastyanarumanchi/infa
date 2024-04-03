@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "5wTOO1mvIQcjYW4sHiJaSu",
+    "name" : "mplt_Remove_Extra_Spaces",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006S"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Replaces multiple consecutive character spaces with a single space, and trims leading and trailing spaces.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.569Z",
+  "objectRefs" : [ {
+    "id" : "3hrgSAfxnI7gvZCrGK78uQ",
+    "name" : "c_Remove_Extra_Spaces",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3hrgSAfxnI7gvZCrGK78uQ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces multiple consecutive spaces with a single space and trims leading and trailing spaces.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

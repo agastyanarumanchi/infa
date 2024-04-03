@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "dFH71A8l6iGcik9NfCDIEP",
+    "name" : "mplt_GBR_Passport_Number_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006C"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule validate a UK passport number according the validations provided in the UK Government Data Standards Catalogue.\n\nTags: Great Britain, Profile, National Id, UK, Validate, Customer",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.635Z",
+  "objectRefs" : [ ]
+}

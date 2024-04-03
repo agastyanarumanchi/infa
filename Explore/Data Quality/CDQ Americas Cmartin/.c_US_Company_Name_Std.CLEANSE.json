@@ -1,0 +1,65 @@
+{
+  "objectInfo" : {
+    "id" : "751JQwdpYoslp946bcV7OP",
+    "name" : "c_US_Company_Name_Std",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "751JQwdpYoslp946bcV7OP"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardize US company names using usa_company_names_std_infa.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.385Z",
+  "objectRefs" : [ {
+    "id" : "biEJ2fCom6Sb1EaH1ddcAp",
+    "name" : "usa_company_names_std_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "biEJ2fCom6Sb1EaH1ddcAp"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table contains list of company name standards in US.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "7meJbBFdvHngVVYp30C64Y",
+    "name" : "usa_company_sufx_abrv_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7meJbBFdvHngVVYp30C64Y"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table contains list of abbreviations used for company suffix.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

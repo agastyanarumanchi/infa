@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "agnZFrUhz7GlzzSG0WDrK7",
+    "name" : "rs_Title_Case",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "agnZFrUhz7GlzzSG0WDrK7"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Converts given input to titlecase.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.508Z",
+  "objectRefs" : [ ]
+}

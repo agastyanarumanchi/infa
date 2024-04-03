@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "8a10UPl8DdNcpcfe3N4CMv",
+    "name" : "c_remove_x",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8a10UPl8DdNcpcfe3N4CMv"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes 'X\" from the start of a line.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.184Z",
+  "objectRefs" : [ ]
+}

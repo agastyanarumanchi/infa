@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "96j6pzSpt2ChG9Xxe6yOcv",
+    "name" : "v_BRA_Validation_Discrete_Address_Geo",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "96j6pzSpt2ChG9Xxe6yOcv"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verifies Brazilian address in Discrete format with geocode.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.386Z",
+  "objectRefs" : [ ]
+}

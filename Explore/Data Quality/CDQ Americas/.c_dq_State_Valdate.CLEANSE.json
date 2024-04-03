@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "4GgopkaMo3PcWc4rb8rbMP",
+    "name" : "c_dq_State_Valdate",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4GgopkaMo3PcWc4rb8rbMP"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates if the the input is a valid US state",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.551Z",
+  "objectRefs" : [ {
+    "id" : "1VlxFSEFYSKh0ijk4v1l2R",
+    "name" : "usa_states",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1VlxFSEFYSKh0ijk4v1l2R"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table contains list of states in US.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

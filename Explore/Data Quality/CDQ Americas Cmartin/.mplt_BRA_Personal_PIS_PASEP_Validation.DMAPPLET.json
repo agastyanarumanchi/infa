@@ -1,0 +1,51 @@
+{
+  "objectInfo" : {
+    "id" : "63aDiAfSHAWgw9C74G3JQe",
+    "name" : "mplt_BRA_Personal_PIS_PASEP_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000003U"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet that validates the number used to manage government social benefits\n\nTags: ",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.515Z",
+  "objectRefs" : [ {
+    "id" : "6JV6PCfQiy9ddl4QwdXRq7",
+    "name" : "mplt_Remove_Punctuation_and_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000032"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet removes all punctuation and all spaces. The digits and letters are returned.\n\nTags: Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

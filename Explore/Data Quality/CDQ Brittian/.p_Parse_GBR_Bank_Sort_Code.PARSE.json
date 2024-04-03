@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7IfT9Tgj5PjbIugzp0sC0j",
+    "name" : "p_Parse_GBR_Bank_Sort_Code",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7IfT9Tgj5PjbIugzp0sC0j"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses the bank sort code for GBR.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.501Z",
+  "objectRefs" : [ ]
+}

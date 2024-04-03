@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "0nwoy9bmrUZhNsLDnZ7kUD",
+    "name" : "mplt_Assign_DQ_Mailability_Score_Description",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001X"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet provides a brief description or meaning for the Mailability Score.\n\nTags: Accuracy",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.697Z",
+  "objectRefs" : [ {
+    "id" : "1OBMaH7pWA7g8O85sGdPa0",
+    "name" : "p_AV_MailabilityScores_infa",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1OBMaH7pWA7g8O85sGdPa0"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a Mailability score listed in  the reference table DQ_AV_MailabilityScores_infa\n",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

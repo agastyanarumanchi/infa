@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "26fUvGOSibYhoFW7D926om",
+    "name" : "mplt_GBR_Address_Validation_Hybrid",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000009Q"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet validates British address data which is in hybrid format, meaning fields with combined street data and discrete fields for locality, region and postcode.\n\nTags: UK, Address, Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.512Z",
+  "objectRefs" : [ {
+    "id" : "hZdM6sXamilbLo3xPFLQcn",
+    "name" : "mplt_Assign_DQ_Match_Code_Description",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000094"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Describes the Match Score score value that a verifier asset returns.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "l95vrZtDUibeDlFc49OYAM",
+    "name" : "av_GBR_AddressValidation_Hybrid",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "l95vrZtDUibeDlFc49OYAM"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Address Verification returns each level of sub-building information  in a hybrid output field.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

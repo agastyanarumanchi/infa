@@ -1,0 +1,51 @@
+{
+  "objectInfo" : {
+    "id" : "5sIQnMDAgOqdRkeWi7MFqz",
+    "name" : "mplt_DEU_VAT_Number_Standardize",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006G"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet formats a 11 alphanumeric character Germany VAT number, regardless of spacing or punctuation. \n\nInputs not equal 11 and does not match the pattern will be returned as is.\n\nValid sample format returned DE581901216\n\nTags: Germany, VAT, Completeness",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.527Z",
+  "objectRefs" : [ {
+    "id" : "ar5lMBholGgjxaadl0b5cR",
+    "name" : "mplt_Remove_Punctuation_and_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000055"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all punctuation symbols and character spaces from an input field, and returns the remaining digits and letters.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  } ]
+}

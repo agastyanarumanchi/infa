@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "fhL7PO55hk9jVrOgG2Y4mm",
+    "name" : "mplt_CAN_Province_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000015"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet validates input string as a Canadian province name.\n\nTags: Validate, Customer, Canada, Address",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.835Z",
+  "objectRefs" : [ {
+    "id" : "15kUbogS02Bh7OehAEFlMD",
+    "name" : "p_can_Province_Validation",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "15kUbogS02Bh7OehAEFlMD"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses Canadian province and validates the input ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "gP2YtQ08wE7f2oI4oRJGCT",
+    "name" : "rs_can_province_validation",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "gP2YtQ08wE7f2oI4oRJGCT"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "this rule spec validates the Canadian provinces ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

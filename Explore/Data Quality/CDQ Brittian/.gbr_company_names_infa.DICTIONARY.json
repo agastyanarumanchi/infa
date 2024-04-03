@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4u4vx0IpBSqlDU6ThzBAQ7",
+    "name" : "gbr_company_names_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4u4vx0IpBSqlDU6ThzBAQ7"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This dictionary contains list of all GBR company names ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.899Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,91 @@
+{
+  "objectInfo" : {
+    "id" : "4sAHgeR29iDdjKsDElsN4V",
+    "name" : "mplt_GBR_Multi_Person_Name_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000008G"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses input nameline into proper name components.\n\nTags: Parse, Name, UK, Accuracy",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.545Z",
+  "objectRefs" : [ {
+    "id" : "09116447UO1g6Olpv2Dk8m",
+    "name" : "p_GBR_ParseFullName",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "09116447UO1g6Olpv2Dk8m"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Multiname parse",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "6ndLzciCyWtc0Cvasxb0yT",
+    "name" : "c_SR_FullName",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6ndLzciCyWtc0Cvasxb0yT"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes full name.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "5wTOO1mvIQcjYW4sHiJaSu",
+    "name" : "mplt_Remove_Extra_Spaces",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006S"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Replaces multiple consecutive character spaces with a single space, and trims leading and trailing spaces.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

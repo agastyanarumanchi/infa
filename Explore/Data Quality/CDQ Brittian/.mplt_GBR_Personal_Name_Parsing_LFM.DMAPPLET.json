@@ -1,0 +1,88 @@
+{
+  "objectInfo" : {
+    "id" : "1RLc5YWF2AqdEYwQJ2W2ix",
+    "name" : "mplt_GBR_Personal_Name_Parsing_LFM",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000079"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses name line in Last-First-Middle format into discrete components.\n\nTags: Parse, Customer, UK, Name, Great Britain, Europe",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.513Z",
+  "objectRefs" : [ {
+    "id" : "8uOGJojEH5ieLMFnX6rXg7",
+    "name" : "p_Parse_GBR_Name_Components_LFM",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8uOGJojEH5ieLMFnX6rXg7"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses the various name components for GBR (LFM).",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "3hrgSAfxnI7gvZCrGK78uQ",
+    "name" : "c_Remove_Extra_Spaces",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3hrgSAfxnI7gvZCrGK78uQ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces multiple consecutive spaces with a single space and trims leading and trailing spaces.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "9zKDXe9owRrcEe0jLAmhMl",
+    "name" : "c_Remove_Numbers",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9zKDXe9owRrcEe0jLAmhMl"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes numbers.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

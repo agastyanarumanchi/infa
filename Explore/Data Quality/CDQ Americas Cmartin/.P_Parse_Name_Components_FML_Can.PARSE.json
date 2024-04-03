@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "cE10kcI1iUOdpcCRgKu2I9",
+    "name" : "P_Parse_Name_Components_FML_Can",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "cE10kcI1iUOdpcCRgKu2I9"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The parser parses the name components for Canada ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.034Z",
+  "objectRefs" : [ ]
+}

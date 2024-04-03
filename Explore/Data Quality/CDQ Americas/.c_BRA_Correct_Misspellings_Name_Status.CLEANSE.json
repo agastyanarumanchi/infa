@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "0DYXc4FHCkyfymQIdHi3Sr",
+    "name" : "c_BRA_Correct_Misspellings_Name_Status",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0DYXc4FHCkyfymQIdHi3Sr"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes misspelt names for Brazil.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.080Z",
+  "objectRefs" : [ {
+    "id" : "9Ztg4UMqIFVi4SVgQ5YYmH",
+    "name" : "bra_names_mispelled_stat_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9Ztg4UMqIFVi4SVgQ5YYmH"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This dictionary contains the status of misspelt names.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

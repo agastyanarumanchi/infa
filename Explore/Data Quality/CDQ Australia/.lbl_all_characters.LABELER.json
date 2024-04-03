@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4azyCPqoq1HeZA9CwWJXIq",
+    "name" : "lbl_all_characters",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4azyCPqoq1HeZA9CwWJXIq"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labels English alphabets, space and symbols.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.557Z",
+  "objectRefs" : [ ]
+}

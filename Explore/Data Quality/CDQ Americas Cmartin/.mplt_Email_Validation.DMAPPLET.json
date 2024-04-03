@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "4v6pA2b50GSb3kXClLYWSH",
+    "name" : "mplt_Email_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000046"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet validates the email format.  It does not check if the email is an activated address.  \nReturns Valid or Invalid.\n\nTag : Accuracy,Conformity/Validity,Integrity/Conformity\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.828Z",
+  "objectRefs" : [ {
+    "id" : "7Lcv6lspKd6kKL3DbzwxuM",
+    "name" : "c_Validation_Domain",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7Lcv6lspKd6kKL3DbzwxuM"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates the domain of an email",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

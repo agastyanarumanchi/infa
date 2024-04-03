@@ -1,0 +1,91 @@
+{
+  "objectInfo" : {
+    "id" : "79OcFcBOiBTaZTbe7sdS4O",
+    "name" : "mplt_aus_family_name_and_address_match",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000008T"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet finds duplicate rows of personal surname and Australia address data grouped by the first two digits of the postcode and the surname.\n\nTags: Uniqueness, Australia",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.048Z",
+  "objectRefs" : [ {
+    "id" : "fyeC8OBngMciS4UuDK6huu",
+    "name" : "dedupe_aus_familyname_and_address_match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "fyeC8OBngMciS4UuDK6huu"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Australia household name and address match with 'Address Part1' as key.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "iXlM4v4cbWGjYUnH45eAG5",
+    "name" : "mplt_Remove_Punctuation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006U"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all punctuation symbols from the input.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "8wibRMCb0O7h2cm2UCIEIM",
+    "name" : "c_multi_uppercase",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8wibRMCb0O7h2cm2UCIEIM"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Converts case to upper for 6 input fields.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

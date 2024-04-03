@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "beE8R42rJO6kXqN5CUHTcB",
+    "name" : "p_usa_gender_assingment_MN",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "beE8R42rJO6kXqN5CUHTcB"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns Gender based on middle name",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.079Z",
+  "objectRefs" : [ {
+    "id" : "bz2ebi4hseggLONvgoN6if",
+    "name" : "usa_gender_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "bz2ebi4hseggLONvgoN6if"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table contains list of gender based on names in US.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

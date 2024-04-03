@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "4ZfBXY9WasNbzLxe1ZHk2t",
+    "name" : "cleanse_standardize_gender",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4ZfBXY9WasNbzLxe1ZHk2t"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "gets gender to standardized dictionary values",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.502Z",
+  "objectRefs" : [ {
+    "id" : "0PjBAE6dCZ1gwDyCApp2iq",
+    "name" : "gender_standardization",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0PjBAE6dCZ1gwDyCApp2iq"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "a8PlTVtRn5UjSxqdL8NlSs",
+    "name" : "mplt_USA_SIC_Code_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000049"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet validates Standard Industrial Classification (SIC) codes. Returns status of Valid and the description for the code if valid or Invalid and a short explaination why.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.555Z",
+  "objectRefs" : [ {
+    "id" : "fLVADfsylA9hFeBnaR9to9",
+    "name" : "rs_USA_SIC_Validation",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "fLVADfsylA9hFeBnaR9to9"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates the US Standard Industrial Classification (SIC) code.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "27QwEZU5Nkpl0MdSGAOB4Y",
+    "name" : "c_US_SIC_Code_Description",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "27QwEZU5Nkpl0MdSGAOB4Y"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes USA SIC codes.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

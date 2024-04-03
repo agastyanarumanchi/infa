@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "7Uh0s2pWOB6cuiF9S5uuEo",
+    "name" : "p_fra_area_code",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7Uh0s2pWOB6cuiF9S5uuEo"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses France area code  from input data.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.571Z",
+  "objectRefs" : [ {
+    "id" : "4wV4oCBq1FOg2yW6mvj4AJ",
+    "name" : "fra_phone_area_code_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4wV4oCBq1FOg2yW6mvj4AJ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Telephone codes for France.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  } ]
+}

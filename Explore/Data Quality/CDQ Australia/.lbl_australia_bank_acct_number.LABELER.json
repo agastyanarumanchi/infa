@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "5ZhRyiUiIMkhVAUgmtwxO6",
+    "name" : "lbl_australia_bank_acct_number",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5ZhRyiUiIMkhVAUgmtwxO6"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates a Australia bank account number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.381Z",
+  "objectRefs" : [ ]
+}

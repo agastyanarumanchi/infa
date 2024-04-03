@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "jZYP4Lon1YhdFymk8RGe2M",
+    "name" : "lbl_deu_passport",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "jZYP4Lon1YhdFymk8RGe2M"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates a German passport number based on the format.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.055Z",
+  "objectRefs" : [ ]
+}

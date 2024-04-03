@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "lPnkok1MLMPgMw4fr5qtIM",
+    "name" : "mplt_BRA_Address_Validation_Discrete_w_Geo",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000004V"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet validates Brazilian address data which is in discrete format, meaning already parsed into proper fields.\n\nTags: Brazil, Address, Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.575Z",
+  "objectRefs" : [ {
+    "id" : "9y8fSTQPlE8jg1yXZ0baeG",
+    "name" : "mplt_Assign_DQ_GeocodingStatus_Description",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000003F"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet assigns a description string to the Geocoding Status output from the Address Validator transformation.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "a7mTwiNSZ9viRosh04a1CQ",
+    "name" : "v_BRA_Validation_Discrete_Address_Geo",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "a7mTwiNSZ9viRosh04a1CQ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verifies Brazilian address in Discrete format with geocode.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "dJCEsD5brUshdlp7hyGd4J",
+    "name" : "P_Parse_CAN_validate_area_code",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "dJCEsD5brUshdlp7hyGd4J"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The parser validates the Canadian area code ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.894Z",
+  "objectRefs" : [ {
+    "id" : "5SIUqqeIg4Cdlza3fkisYH",
+    "name" : "can_tel_area_codes_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5SIUqqeIg4Cdlza3fkisYH"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table contains Canadian telephone  area codes ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

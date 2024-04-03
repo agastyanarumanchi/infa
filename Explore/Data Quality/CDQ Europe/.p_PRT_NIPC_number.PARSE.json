@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "h4nF7eAsM43l8D1QPfRIsn",
+    "name" : "p_PRT_NIPC_number",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "h4nF7eAsM43l8D1QPfRIsn"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses Portugal NIPC number from input data.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.488Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "lxZbjCCwYqpkSMnnAveRek",
+    "name" : "mplt_UpperCase",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007M"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Changes alphabetic characters to uppercase.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.526Z",
+  "objectRefs" : [ {
+    "id" : "b73c43VU8S5dtr4li0NcSm",
+    "name" : "c_Uppercase",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "b73c43VU8S5dtr4li0NcSm"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Converts the input text to uppercase.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "49I5ijT2XEEcbaNbHIiF8k",
+    "name" : "mplt_GBR_Driver_Number_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007D"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule parses a string that matches the standard for a UK driver number from a larger string of data.\n\nTags: Conformity/Validity, GBR, Contact, High, Parse",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.194Z",
+  "objectRefs" : [ {
+    "id" : "5vZfNse2Qd8lUMg4phwzev",
+    "name" : "p_GBR_driver_number",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5vZfNse2Qd8lUMg4phwzev"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a GBR Driver License from a string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

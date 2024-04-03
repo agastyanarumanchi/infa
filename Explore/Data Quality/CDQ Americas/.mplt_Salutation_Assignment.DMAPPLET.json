@@ -1,0 +1,51 @@
+{
+  "objectInfo" : {
+    "id" : "asDhrkA6ab4j0ROsXkpquE",
+    "name" : "mplt_Salutation_Assignment",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001S"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet generates a formal and casual greeting.   Mr John Smith will get a formal greeting of Dear Mr Smith, and the casual greeting will be Dear John,.  The prefix (Dear) and suffix (,) can be changed in dq_Generate_Salutation transform.\n\nTags:  Contact, Accuracy, Integrity/Conformity\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.509Z",
+  "objectRefs" : [ {
+    "id" : "5r8zrVkz5PGjcRn6s06Rqx",
+    "name" : "mplt_Remove_Punctuation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000S"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet removes all punctuation occurrences in in the input.\n\nTags: Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

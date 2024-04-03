@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "1uThziAOuSAcg0GfhYsyY4",
+    "name" : "mplt_Prename_Assignment",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006F"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet assigns a prename based on the gender.\nUse variable to change female prename assignment value.  Examples, Ms or Mrs.\n\nTags:  Contact, Accuracy, Integrity/Conformity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.378Z",
+  "objectRefs" : [ ]
+}

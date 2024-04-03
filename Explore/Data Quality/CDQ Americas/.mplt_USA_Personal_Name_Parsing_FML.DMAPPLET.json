@@ -1,0 +1,91 @@
+{
+  "objectInfo" : {
+    "id" : "3xpjJsvr9MgbdGvuGGqIMi",
+    "name" : "mplt_USA_Personal_Name_Parsing_FML",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001R"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses input name lines in First-Middle-Last format into discrete components.\n\nTags: Accuracy, Conformity/Validity, Integrity/Conformity, USA, Name, Contact",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.364Z",
+  "objectRefs" : [ {
+    "id" : "9ip6G0oex0GcHQEciD1uEQ",
+    "name" : "mplt_Remove_Extra_Spaces",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000L"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet replaces multiple consecutive spaces with a single space and trims leading and trailing spaces.\n\nTags: Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "4RWcScscTN5jKS8oVkmnYX",
+    "name" : "c_Std_Name",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4RWcScscTN5jKS8oVkmnYX"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes name fields by removing extra spaces and noise.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "aRhc3kpwwqXcLUBNpCmmyx",
+    "name" : "p_Parse_Name_Components_FML_USA",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "aRhc3kpwwqXcLUBNpCmmyx"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses input into First Name, Middle Name, Last Name for USA.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

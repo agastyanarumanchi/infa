@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "8yTMYzwDWaOk5KA3sW9iOM",
+    "name" : "mplt_aus_bsb_validate",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000009D"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rules validates an Australia BSB number (Bank-State-Branch) after checking the length and the format . BSB numbers are a 6 digit string. \n\nFormats validated: 111-111\n\nTags: Validity, Australia, Bank, Finance",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.360Z",
+  "objectRefs" : [ {
+    "id" : "3Z0IpnxmsFZchisDq2Tek8",
+    "name" : "mplt_Remove_Punctuation_and_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000072"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all punctuation symbols and character spaces from an input field, and returns the remaining digits and letters.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "bPxZcwT4HWTekO3LDe7xis",
+    "name" : "lbl_aus_bank_code",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "bPxZcwT4HWTekO3LDe7xis"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labels an Australia bank code as valid.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

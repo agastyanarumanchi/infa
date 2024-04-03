@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "dbH5slFLsqmhu1QrYa9hgk",
+    "name" : "p_nzl_int_country_code",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "dbH5slFLsqmhu1QrYa9hgk"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses the New Zeeland international dialing country code.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.314Z",
+  "objectRefs" : [ ]
+}

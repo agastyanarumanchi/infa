@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1EZcqaErBEodid0nPn1kqv",
+    "name" : "p_PRT_NIF_number",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1EZcqaErBEodid0nPn1kqv"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses Portugal NIF number from input data.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.359Z",
+  "objectRefs" : [ ]
+}

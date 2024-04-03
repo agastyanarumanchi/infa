@@ -1,0 +1,94 @@
+{
+  "objectInfo" : {
+    "id" : "30qOUpJ2a4Qk6BR1dP36GW",
+    "name" : "mplt_GBR_Address_Validation_Hybrid_Geocoding",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000009L"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet validates British address data which is in hybrid format, meaning fields with combined street data and discrete fields for locality, region and postcode.\n\nTags: UK, Address, Accuracy, Conformity/Validity\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.351Z",
+  "objectRefs" : [ {
+    "id" : "fBqw9etwukIj81JAuMTn8F",
+    "name" : "av_GBR_Hybrid_w_Gecoding",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "fBqw9etwukIj81JAuMTn8F"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Address Verification returns each level of sub-building information  in a hybrid output field with geo-coding",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "hZdM6sXamilbLo3xPFLQcn",
+    "name" : "mplt_Assign_DQ_Match_Code_Description",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000094"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Describes the Match Score score value that a verifier asset returns.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "0mGK6b3wC32c8zBT2m2g8Q",
+    "name" : "mplt_Assign_DQ_GeocodingStatus_Description",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000088"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet assigns a description string to the Geocoding Status output from the Address Validator transformation.\n\nTags: Address, Accuracy",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

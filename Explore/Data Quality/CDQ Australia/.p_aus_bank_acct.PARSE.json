@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "kgSGIcIMeWNfRpcj5txk8q",
+    "name" : "p_aus_bank_acct",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kgSGIcIMeWNfRpcj5txk8q"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses an Australian Bank account number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.486Z",
+  "objectRefs" : [ ]
+}

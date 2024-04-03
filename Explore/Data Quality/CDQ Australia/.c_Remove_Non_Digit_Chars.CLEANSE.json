@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "2JB41h3FM22cBLofT2Y6W9",
+    "name" : "c_Remove_Non_Digit_Chars",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2JB41h3FM22cBLofT2Y6W9"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes 'X', 'S', and '_' Characters.  Precede by Label_Non_Digit_Chars Labeller to label all non-digit chars accurately. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.505Z",
+  "objectRefs" : [ ]
+}

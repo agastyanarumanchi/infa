@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1IDr0yaPf4bjbH1mOVI9Qa",
+    "name" : "dedupe_US_IMO_Fam_Name_Address_Match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1IDr0yaPf4bjbH1mOVI9Qa"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches family name and address using Address_Part1 as key.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.396Z",
+  "objectRefs" : [ ]
+}

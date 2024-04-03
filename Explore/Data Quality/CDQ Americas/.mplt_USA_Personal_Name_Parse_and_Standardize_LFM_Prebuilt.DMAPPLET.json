@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "1hRC6VMGe5ZcAzS5SWwyC1",
+    "name" : "mplt_USA_Personal_Name_Parse_and_Standardize_LFM_Prebuilt",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000I"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet uses the prebuilt parser that parses name line in Last-First-Middle format into discrete components, assigns prenames,\nstandardizes the prename, postname and title, title cases all components and builds a full name from the discrete components.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.514Z",
+  "objectRefs" : [ {
+    "id" : "aL4p23GvtU6hOkannZcH2P",
+    "name" : "P_Parse_Name_Components_LFM_USA",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "aL4p23GvtU6hOkannZcH2P"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses input into Last Name, Middle Name, First Name for USA.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "imZYx758qKSlT8oa1mlUqI",
+    "name" : "mplt_GBR_NINO_Standardization",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007T"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Accepts a string that conforms to a NINO and standardizes it 2 typical formats (CC NN NN NN C or CCNNNNNNC). All letters are set to uppercase. \nRule assumes that all input conforms to a NINO standard.\n\nTags:  UK, Contact, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.189Z",
+  "objectRefs" : [ {
+    "id" : "3Vcynli4VAxkFo6uCIqWqQ",
+    "name" : "c_Remove_Space",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3Vcynli4VAxkFo6uCIqWqQ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all occurrences of a space from the input field.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "cv0IgnIelIHf2Hu3jTkhqe",
+    "name" : "c_Uppercase",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "cv0IgnIelIHf2Hu3jTkhqe"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Converts the input text to uppercase.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

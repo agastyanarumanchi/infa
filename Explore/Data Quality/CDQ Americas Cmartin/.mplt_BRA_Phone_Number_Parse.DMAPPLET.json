@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "2jdPoa7IukQlYDGAfPYt0q",
+    "name" : "mplt_BRA_Phone_Number_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000003S"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet parses a phone number that follows the standard format for Brazil from a string of text into its own field.\n\nTags: Phone, Customer, Parse, Brazil\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.897Z",
+  "objectRefs" : [ {
+    "id" : "5LuqCxYFw0WfpcJrcPwWUp",
+    "name" : "p_parse_bra_phone_number",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5LuqCxYFw0WfpcJrcPwWUp"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : " Parses the Brazilian phone number from a string input.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "69oKtW2U3srg3AiJBqqmSk",
+    "name" : "mplt_Remove_Extra_Spaces",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000002U"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet replaces multiple consecutive spaces with a single space and trims leading and trailing spaces.\n\nTags: Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "9yKnyrZRqTOlakgkOTTFqq",
+    "name" : "p_Assign_Midname_Gender_Can",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9yKnyrZRqTOlakgkOTTFqq"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "the parser assigns gender on the basis of mid name for Canada  ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.841Z",
+  "objectRefs" : [ {
+    "id" : "bGyIju3x9A5fJeq1S75r8O",
+    "name" : "can_gender_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "bGyIju3x9A5fJeq1S75r8O"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "this reference table contains list of  genders on the basis of  name  for Canada ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

@@ -1,0 +1,91 @@
+{
+  "objectInfo" : {
+    "id" : "87mt6B0rxSdib71wr5jJAI",
+    "name" : "mplt_aus_company_number_parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000089"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Parses an Australian Company Number (ACN), which is a unique nine-digit identifier assigned by the Australian Securities and Investments Commission (ASIC)\n\nTags: Australia, Parse, Accuracy",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.047Z",
+  "objectRefs" : [ {
+    "id" : "3Z0IpnxmsFZchisDq2Tek8",
+    "name" : "mplt_Remove_Punctuation_and_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000072"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all punctuation symbols and character spaces from an input field, and returns the remaining digits and letters.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "2d5dzx3Pt29hccinaL3io3",
+    "name" : "c_merge_fields",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2d5dzx3Pt29hccinaL3io3"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The cleanse asset is used to merge the Overflow, Before,  After and Unparsed fields from the parse asset.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "8k12NHtdDZola7PVNceKaY",
+    "name" : "p_aus_company_number",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8k12NHtdDZola7PVNceKaY"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parse an Australian Company Number from a string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

@@ -1,0 +1,111 @@
+{
+  "objectInfo" : {
+    "id" : "80D9uz41oGleHP7vIHvxMA",
+    "name" : "mplt_USA_Gender_Assingment",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000X"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet assigns the gender.  \nAn example, a name of John Smith will be assigned a gender of M for male.\n\nTags: Accuracy, US, Contact, Americas",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.600Z",
+  "objectRefs" : [ {
+    "id" : "llCsNMUdXAqcr6fuGULnkA",
+    "name" : "p_usa_gender_assignemnt_FN",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "llCsNMUdXAqcr6fuGULnkA"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns the gender based on the first name ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "8v6fX5Q52ITbojA3bU29s4",
+    "name" : "p_USA_gender_Assingment_Prename",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8v6fX5Q52ITbojA3bU29s4"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns Gender based on prename",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "beE8R42rJO6kXqN5CUHTcB",
+    "name" : "p_usa_gender_assingment_MN",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "beE8R42rJO6kXqN5CUHTcB"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns Gender based on middle name",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "aVRsjkluxpslK6K2SoKIm5",
+    "name" : "mplt_Replace_Limited_Punct_with_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000P"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet replaces certain punctuation with a single space, but not all.  Punctuation replaced includes:\n/, \\, ., !, _ and two, three and four consecutive spaces.\n\nTags: Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

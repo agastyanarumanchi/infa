@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "5kGfpCsPufCiFZqeYQA32B",
+    "name" : "mplt_BRA_IMO_Personal_Name_and_Data_Match",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000R"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet finds duplicate individual names and personal data.  The personal data field can contain \nany type of data such as Phone number, Email, CPF, etc. but should be consistently the same type.\nThe Personal data type is the Group key, meaning all the rows are sorted and grouped based on this field.\n\nTags: Matching, Email, Customer, National Id, Name, Brazil, Phone, Date",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.399Z",
+  "objectRefs" : [ {
+    "id" : "9zn1ttqrwCCl6Ko9Dubngo",
+    "name" : "dedupe_BRA_Match_Name_Personal_Data",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9zn1ttqrwCCl6Ko9Dubngo"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches Brazil personal name and data. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

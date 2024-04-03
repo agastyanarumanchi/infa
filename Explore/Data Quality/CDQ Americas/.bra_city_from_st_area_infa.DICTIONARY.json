@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1umYUwDppXHk8zA87B6y25",
+    "name" : "bra_city_from_st_area_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1umYUwDppXHk8zA87B6y25"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This dictionary contains information about the cities of Brazil, state area-wise.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.506Z",
+  "objectRefs" : [ ]
+}

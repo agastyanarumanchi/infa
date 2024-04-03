@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4zBrCc6A4PYhAX5MSSNvIW",
+    "name" : "lbl_deu_id_card_number",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4zBrCc6A4PYhAX5MSSNvIW"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labels a valid DEU ID Card number as valid.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.387Z",
+  "objectRefs" : [ ]
+}

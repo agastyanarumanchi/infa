@@ -1,0 +1,91 @@
+{
+  "objectInfo" : {
+    "id" : "cGNotsp4FOLlPxK7lxPYg0",
+    "name" : "mplt_aus_gender_assignment",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000008M"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet assigns the gender. An example, a name of John Smith will be assigned a gender of M for male. \n\nTags: Australia, Profile, Gender",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.565Z",
+  "objectRefs" : [ {
+    "id" : "48N82cW0N1DbS5t6sY7kEV",
+    "name" : "mplt_Replace_Limited_Punct_with_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006V"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Replaces punctuation symbols including a forward slash, backslash, exclamation point, period, or underscore character with a character space. Also replaces instances of two, three, or four consecutive character spaces with a single space.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "6tR6NomuT9Plo3Jx2mrCKe",
+    "name" : "p_aus_assign_midname_gender",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6tR6NomuT9Plo3Jx2mrCKe"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses the gender for the assigned middle name.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "3Y4TKGgqSqFkAWgffT4ZgR",
+    "name" : "p_assign_prename_gender",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3Y4TKGgqSqFkAWgffT4ZgR"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assign gender depending on honorifics",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

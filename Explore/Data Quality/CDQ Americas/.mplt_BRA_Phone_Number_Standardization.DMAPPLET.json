@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "jo09vvfAeW9eR6LSdgRTab",
+    "name" : "mplt_BRA_Phone_Number_Standardization",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000009"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet standardizes the format of the phone string to have \nstandard - (nnn) nnn-nnnn\ndashes - nnn-nnn-nnnn\nno spaces - nnnnnnnn\n\nTags: Company, Standardize, Brazil, Phone, Customer",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.521Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "3dwV7beskmkfpoHvubjmMB",
+    "name" : "mplt_GBR_Bank_Account_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000069"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Validates if the input meets the criteria for a valid UK Bank account Number. The 2 checks are if the input is numeric and if the value is 8 characters long.\nNo cleansing is performed before hand. The rule assumes that the number is standardized to be an 8 digit number in order to validate it.\n\nTags: Europe, Validate, Great Britain, UK, Finance",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.385Z",
+  "objectRefs" : [ ]
+}

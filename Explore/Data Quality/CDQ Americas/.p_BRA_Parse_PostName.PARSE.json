@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "0yD59eYitAHdKF5X3DlBQV",
+    "name" : "p_BRA_Parse_PostName",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0yD59eYitAHdKF5X3DlBQV"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses Brazil postname.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.486Z",
+  "objectRefs" : [ {
+    "id" : "5KS1P0kQJ6Wi3arm86Pim8",
+    "name" : "bra_name_suffix_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5KS1P0kQJ6Wi3arm86Pim8"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This dictionary contains Brazilian name suffixes.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

@@ -1,0 +1,88 @@
+{
+  "objectInfo" : {
+    "id" : "905QTXMiBD5ctc9Kn8w4KV",
+    "name" : "mplt_CAN_Phone_Number_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001G"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet validates the area code and length of Canadian phone numbers.\nQuality scores are:  0 - NULL or blank input\n\t\t\t\t\t10 - Invalid length\n\t\t\t\t\t40 - Valid length, Invalid Area Code\n\t\t\t\t\t95\t- Valid length and Area Code\n\nTags: Profile, Phone, Validate, Canada, Customer, Company",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.493Z",
+  "objectRefs" : [ {
+    "id" : "0yU0UVHKnDAk8MADTIQ5IM",
+    "name" : "P_Parse_CAN_validate_area_code",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0yU0UVHKnDAk8MADTIQ5IM"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The parser validates the Canadian area code ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "0RtARPMUZUjiuRU6YgO3mn",
+    "name" : "rs_validate_area_code",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0RtARPMUZUjiuRU6YgO3mn"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Null check for area code.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "fGeGueTHPUFfSs4FFFMAwM",
+    "name" : "dq_Label_Noise",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "fGeGueTHPUFfSs4FFFMAwM"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes characters in a phone number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

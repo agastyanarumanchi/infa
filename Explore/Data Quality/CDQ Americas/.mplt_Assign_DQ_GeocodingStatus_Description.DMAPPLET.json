@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "78gL4l2Fx4efmNG9EVVQKU",
+    "name" : "mplt_Assign_DQ_GeocodingStatus_Description",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001M"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet assigns a description string to the Geocoding Status output from the Address Validator transformation.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.572Z",
+  "objectRefs" : [ {
+    "id" : "fmKbYVBAFquhicvz3VIFkH",
+    "name" : "p_Parse_Assign_GeocodingStatus_Desc",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "fmKbYVBAFquhicvz3VIFkH"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parse geocoding status description.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

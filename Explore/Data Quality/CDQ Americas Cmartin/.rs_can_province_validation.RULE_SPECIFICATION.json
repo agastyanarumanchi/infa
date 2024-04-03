@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "0nMrLC690fflPdM0sUIk47",
+    "name" : "rs_can_province_validation",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0nMrLC690fflPdM0sUIk47"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "this rule spec validates the Canadian provinces ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.443Z",
+  "objectRefs" : [ ]
+}

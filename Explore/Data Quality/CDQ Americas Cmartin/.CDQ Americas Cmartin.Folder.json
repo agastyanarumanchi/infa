@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "e7njqExmW0GebOpqawLraq",
+    "name" : "CDQ Americas Cmartin",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.836Z",
+  "objectRefs" : [ ]
+}

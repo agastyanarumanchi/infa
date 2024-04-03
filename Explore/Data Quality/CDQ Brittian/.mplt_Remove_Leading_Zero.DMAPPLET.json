@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "1HeE9LIbu2ShysCvk1y2Ku",
+    "name" : "mplt_Remove_Leading_Zero",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007U"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes a leading zero from a string.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.172Z",
+  "objectRefs" : [ {
+    "id" : "4lMuMNuFvPXl4JCTruCrMv",
+    "name" : "c_Remove_Leading_Zero",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4lMuMNuFvPXl4JCTruCrMv"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes the leading zero at the start of an input string.\t",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

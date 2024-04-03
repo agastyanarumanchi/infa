@@ -1,0 +1,88 @@
+{
+  "objectInfo" : {
+    "id" : "7WTNNqBWnC2ixWZNyqitmj",
+    "name" : "mplt_nzl_social_welfare_number_validate",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007I"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "The mapplet validates a New Zealand Social Welfare Number from a string with limited punctuation. \nChecks for the length and format.\n\nNo checksum validation as info on checksum not available.\n\nTags:  Validity, New Zealand",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.436Z",
+  "objectRefs" : [ {
+    "id" : "51rJvxxhCW0aZEVFrL65GH",
+    "name" : "lbl_nzl_social_welfare_no",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "51rJvxxhCW0aZEVFrL65GH"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labels a New Zealand Social Welfare Number using a regex. \nNo checksum validation as info on checksum not available.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "7Vgr1HFTj6vgBcciyJZg8V",
+    "name" : "c_Remove_Space",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7Vgr1HFTj6vgBcciyJZg8V"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all occurrences of a space from the input field.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "0bBTgqRX2QldsAjgYcHFAh",
+    "name" : "c_Remove_Punctuation",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0bBTgqRX2QldsAjgYcHFAh"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all occurrences of punctuation from the input field.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

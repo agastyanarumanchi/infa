@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "0JgebQ8qjiefWbchrgCLWQ",
+    "name" : "c_BRA_Lbl_Lookup_Area_Code",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0JgebQ8qjiefWbchrgCLWQ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Returns the corresponding area name from area code for Brazil.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.500Z",
+  "objectRefs" : [ {
+    "id" : "6ikUBIZmlvddJNWZruPdcZ",
+    "name" : "bra_city_from_st_area_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6ikUBIZmlvddJNWZruPdcZ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This dictionary contains information about the cities of Brazil, state area-wise.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

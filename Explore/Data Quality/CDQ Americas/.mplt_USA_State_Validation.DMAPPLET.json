@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "7IXPIx4X7adlQZ5k1DhY4d",
+    "name" : "mplt_USA_State_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001Q"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet validates the input string as a state name.\n\nTags: Accuracy,Conformity/Validity, US, Americas",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.052Z",
+  "objectRefs" : [ {
+    "id" : "4GgopkaMo3PcWc4rb8rbMP",
+    "name" : "c_dq_State_Valdate",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4GgopkaMo3PcWc4rb8rbMP"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates if the the input is a valid US state",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

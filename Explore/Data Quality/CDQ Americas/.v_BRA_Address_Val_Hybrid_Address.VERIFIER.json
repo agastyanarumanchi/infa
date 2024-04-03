@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "iaUr1ieqnSVjXGKFbL6kAh",
+    "name" : "v_BRA_Address_Val_Hybrid_Address",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "iaUr1ieqnSVjXGKFbL6kAh"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verifies Brazilian address in Hybrid format.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.035Z",
+  "objectRefs" : [ ]
+}

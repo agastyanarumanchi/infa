@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "73u2xEZ2b9dlUrUeDykZKs",
+    "name" : "v_US_AddressValidation_Hyb_w_Geo",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "73u2xEZ2b9dlUrUeDykZKs"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verifies US address in Hybrid format with geocode.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.028Z",
+  "objectRefs" : [ ]
+}

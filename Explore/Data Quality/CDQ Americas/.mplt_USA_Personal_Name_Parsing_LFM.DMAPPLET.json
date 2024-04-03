@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "9Ees9ypx99HdeIQayLAQw2",
+    "name" : "mplt_USA_Personal_Name_Parsing_LFM",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000019"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses name line in Last-First-Middle format into discrete components.\n\nTags: Accuracy, Conformity/Validity, Integrity/Conformity, USA, Contact",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.897Z",
+  "objectRefs" : [ {
+    "id" : "9ip6G0oex0GcHQEciD1uEQ",
+    "name" : "mplt_Remove_Extra_Spaces",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000L"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet replaces multiple consecutive spaces with a single space and trims leading and trailing spaces.\n\nTags: Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "aL4p23GvtU6hOkannZcH2P",
+    "name" : "P_Parse_Name_Components_LFM_USA",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "aL4p23GvtU6hOkannZcH2P"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses input into Last Name, Middle Name, First Name for USA.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

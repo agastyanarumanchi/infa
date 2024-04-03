@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "gHUW7dy0ZYfd6khYvwBlen",
+    "name" : "p_UK_Postcode_Validate",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "gHUW7dy0ZYfd6khYvwBlen"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Uses a regex to match a UK postcode.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.824Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,74 @@
+{
+  "objectInfo" : {
+    "id" : "iyvjdRpk5YRdragfKfSKUD",
+    "name" : "mplt_aus_healthcare_identifier_validate",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000095"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rules validates an Australia Health Identifier (IHI number -Individual Health Care, HPI-I Healthcare Provider Identifier - Individual (HPI-I) - and HPO-O -Healthcare Provider Identifier - Organization (HPI-O) after checking the length and the format . Health Identifiers numbers are a 16 digit string. \n\nFormats validated: 1111-1111-1111-1111 or 1111 1111 1111 1111 or 1111111111111111\n\nTags: Validity, Health, Australia",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.393Z",
+  "objectRefs" : [ {
+    "id" : "3Z0IpnxmsFZchisDq2Tek8",
+    "name" : "mplt_Remove_Punctuation_and_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000072"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all punctuation symbols and character spaces from an input field, and returns the remaining digits and letters.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "0b2ypfdh6xqi7nlbL5Kcie",
+    "name" : "mplt_Luhn_Algorithm",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000076"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet applies the Luhn algorithm, a mod 10 calculation commonly used for Credit Card number check digit validation, to an input value.\nReturns Valid if the supplied check digit matches the calculated value, Invalid if not.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

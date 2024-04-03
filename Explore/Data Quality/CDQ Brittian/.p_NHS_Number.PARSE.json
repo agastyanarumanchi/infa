@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4Ig8T7ARA2Xieu0l3xZ2a7",
+    "name" : "p_NHS_Number",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4Ig8T7ARA2Xieu0l3xZ2a7"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parser used a regex to parse GBR NHS number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.169Z",
+  "objectRefs" : [ ]
+}

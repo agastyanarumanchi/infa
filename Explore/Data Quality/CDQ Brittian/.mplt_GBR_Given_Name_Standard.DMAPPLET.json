@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "3dmpHGRT2mgcQh0pywfu2A",
+    "name" : "mplt_GBR_Given_Name_Standard",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000008C"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet returns a standard name for common nicknames, for example, Robert is return with input of Bob.\n\nTags: GBR, Contact, Integrity/Conformity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.571Z",
+  "objectRefs" : [ {
+    "id" : "5qVHcKwbumLjoNqp7FMAI7",
+    "name" : "c_GBR_given_name_standard",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5qVHcKwbumLjoNqp7FMAI7"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes extra spaces and formats the name in the standard form",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "iYDiR0A0ZGrfPgUrKHF0cG",
+    "name" : "mplt_aus_bank_account_number_parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007N"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses an Australia Bank account number from a longer string. Bank account numbers are typically just an 7 to 13 digit string. \nAs a result, this rule will parse any 7 to 13 digit string contained in the full text as a bank account number.\n\n\n\nTags: Finance, Australia, Parse",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.576Z",
+  "objectRefs" : [ {
+    "id" : "kgSGIcIMeWNfRpcj5txk8q",
+    "name" : "p_aus_bank_acct",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kgSGIcIMeWNfRpcj5txk8q"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses an Australian Bank account number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "2d5dzx3Pt29hccinaL3io3",
+    "name" : "c_merge_fields",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2d5dzx3Pt29hccinaL3io3"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The cleanse asset is used to merge the Overflow, Before,  After and Unparsed fields from the parse asset.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

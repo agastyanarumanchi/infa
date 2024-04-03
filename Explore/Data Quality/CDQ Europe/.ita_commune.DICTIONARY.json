@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "79tUB1Ds32FeyYfcLmIVEc",
+    "name" : "ita_commune",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "79tUB1Ds32FeyYfcLmIVEc"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "List of comuni or municipalities for Italy.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.831Z",
+  "objectRefs" : [ ]
+}

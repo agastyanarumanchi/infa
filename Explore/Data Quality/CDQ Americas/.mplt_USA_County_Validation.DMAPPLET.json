@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "3kPuPj2WmxpjPwkJxySEwK",
+    "name" : "mplt_USA_County_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001H"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet checks if input string is a valid county name in any state.\n\nTags: Customer, Europe, Validate, France, Phone",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.557Z",
+  "objectRefs" : [ {
+    "id" : "00qLSFDKQ5liZY8Jqli6Eu",
+    "name" : "c_dq_Validate_County",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "00qLSFDKQ5liZY8Jqli6Eu"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates if a given input is a valid US county.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

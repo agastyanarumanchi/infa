@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "ep68aeZ6PA0h7sOzH87ke4",
+    "name" : "p_parse_CAN_SIN",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "ep68aeZ6PA0h7sOzH87ke4"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses Canadian SIN Number ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.691Z",
+  "objectRefs" : [ ]
+}

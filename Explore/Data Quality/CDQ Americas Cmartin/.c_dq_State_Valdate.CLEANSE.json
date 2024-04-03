@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "5tRbsvXfdo6hqwfhVMDHAy",
+    "name" : "c_dq_State_Valdate",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5tRbsvXfdo6hqwfhVMDHAy"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates if the the input is a valid US state",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.824Z",
+  "objectRefs" : [ {
+    "id" : "0WqrwA23bpOfI2ubyMcwkO",
+    "name" : "usa_states",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0WqrwA23bpOfI2ubyMcwkO"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table contains list of states in US.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "icC5VgJkq4DhpwSneBBMOr",
+    "name" : "mplt_USA_IMO_Personal_Name_and_Data_Match",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000039"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet finds duplicate individual names and personal data.  The personal data field can contain any type of data such as Phone number, Email, SSN, etc. but should be consistently the same type. \nThe Personal data type is the Group key, meaning all the rows are sorted and grouped based on this field.\n\nTags: Date, Customer, Matching, North America, Name, SSN, Email, Phone",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.045Z",
+  "objectRefs" : [ {
+    "id" : "2ftKQ7c16kBiudm7qqndi7",
+    "name" : "dedupe_US_IMO_Personal_Name_Data_Match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2ftKQ7c16kBiudm7qqndi7"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Identity match of personal name and data.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

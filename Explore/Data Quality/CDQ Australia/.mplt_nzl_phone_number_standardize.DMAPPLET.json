@@ -1,0 +1,128 @@
+{
+  "objectInfo" : {
+    "id" : "2fTYMGptLCCjAsfLQB4REz",
+    "name" : "mplt_nzl_phone_number_standardize",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007E"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet standardizes the format of a New Zealand phone number Country Code, Area Code and Landline number.to the formats listed below:\n\nstandard - +nn (nnn) nnnnn\ndashes - +nn-nnnn-nnnn\nno spaces - +nnnnnnnnnn\n\nTags: Integrity, Accuracy, Conformity, New Zealand",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.890Z",
+  "objectRefs" : [ {
+    "id" : "8a10UPl8DdNcpcfe3N4CMv",
+    "name" : "c_remove_x",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8a10UPl8DdNcpcfe3N4CMv"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes 'X\" from the start of a line.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "3COEPNkUC0Giir6VdeKGq7",
+    "name" : "c_nzl_phone_line",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3COEPNkUC0Giir6VdeKGq7"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Drops the area codes from a New Zealand phone number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "ioZEG7zIps3c2orQ6qRdKK",
+    "name" : "p_nzl_area_codes",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "ioZEG7zIps3c2orQ6qRdKK"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses specific telephone codes.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "5qHvfCiqQRGiawnI5EIQMb",
+    "name" : "c_remove_labelled_character",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5qHvfCiqQRGiawnI5EIQMb"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replace an X, _ and S with @.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "4azyCPqoq1HeZA9CwWJXIq",
+    "name" : "lbl_all_characters",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4azyCPqoq1HeZA9CwWJXIq"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labels English alphabets, space and symbols.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

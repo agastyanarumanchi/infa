@@ -1,0 +1,117 @@
+{
+  "objectInfo" : {
+    "id" : "9GwDAIZr9q4ephj3y1xX6t",
+    "name" : "mplt_BRA_Individual_Name_and_Address_Match",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000004I"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet finds duplicate rows of personal name and Brazil address data grouped \nby the nysiis value of the surname and the first three digits of the postcode.\n\nTags: Uniqueness, Brazil",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.029Z",
+  "objectRefs" : [ {
+    "id" : "3CuVnq2q0kJdjQFUDPBlGb",
+    "name" : "mplt_BRA_Given_Name_Standard",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000044"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet returns a standard name for common nicknames, for example, Robert is return with input of Bob.\n\nTags: Integrity, Conformity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "4AjG7l430CtbWCk6LWzAql",
+    "name" : "mplt_UpperCase",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000033"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet changes the case to UPPER for all input data.\n\nTags: Conformity/Validity, Consistency",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "6uZBWlnFxORjKL1RZOQK6p",
+    "name" : "mplt_Remove_Punctuation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000031"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet removes all punctuation occurrences in in the input.\n\nTags: Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "2FpkO2bywcnk6Lz3KxzhkV",
+    "name" : "dedupe_BRA_indivdual_name_addr_match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2FpkO2bywcnk6Lz3KxzhkV"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Brazil Individual Name and Address match.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

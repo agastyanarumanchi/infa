@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1sbFDItaXuRj8UPgRLN96q",
+    "name" : "bra_name_suffix_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1sbFDItaXuRj8UPgRLN96q"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This dictionary contains Brazilian name suffixes.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.838Z",
+  "objectRefs" : [ ]
+}

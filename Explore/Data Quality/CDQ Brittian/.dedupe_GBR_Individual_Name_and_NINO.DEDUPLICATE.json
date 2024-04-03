@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4U9AT8zwM7FikhmI9zVAWI",
+    "name" : "dedupe_GBR_Individual_Name_and_NINO",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4U9AT8zwM7FikhmI9zVAWI"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches Individual name and email for GBR",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.501Z",
+  "objectRefs" : [ ]
+}

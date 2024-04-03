@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "7OMU7rty879cx3nSCF5Zsd",
+    "name" : "mplt_USA_Phone_Number_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000040"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet validates the area code for US phone numbers.\nQuality scores are:  0 - NULL or blank input\n\t\t\t\t\t10 - Invalid length\n\t\t\t\t\t40 - Valid length, Invalid Area Code\n\t\t\t\t\t95\t- Valid length and Area Code\n\nTags: Accuracy, Conformity/Validity, Consistency",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.184Z",
+  "objectRefs" : [ {
+    "id" : "1qTzylagmXGjeGjPxWZNun",
+    "name" : "c_US_validate_area_code_label",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1qTzylagmXGjeGjPxWZNun"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates area codes for USA.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

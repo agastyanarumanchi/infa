@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "9VKHnbzIp1iiLvvC6KrPSL",
+    "name" : "lbl_GBR_Area_Code_3Digits",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9VKHnbzIp1iiLvvC6KrPSL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labels 3 digit area codes of Great Britain.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.191Z",
+  "objectRefs" : [ {
+    "id" : "3B2p74Gjr4xdLSebE6NPC6",
+    "name" : "gbr_tel_area_codes_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3B2p74Gjr4xdLSebE6NPC6"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This dictionary contains GBR telephone area codes",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "lib6KR0RN6fiFjrg44ktAu",
+    "name" : "p_Parse_Name_Components_FML_USA",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "lib6KR0RN6fiFjrg44ktAu"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses input into First Name, Middle Name, Last Name for USA.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.511Z",
+  "objectRefs" : [ ]
+}

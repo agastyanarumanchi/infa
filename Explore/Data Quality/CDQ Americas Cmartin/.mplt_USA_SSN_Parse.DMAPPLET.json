@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "irY2E1ZcJojiLLTUuMQN4t",
+    "name" : "mplt_USA_SSN_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000002V"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet parses a US SSN pattern from a larger string of text. SSNs with dashes or without dashes will be parsed.\n\nTags: North America, National Id, SSN, USA, Parse, Customer, Tax",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.489Z",
+  "objectRefs" : [ {
+    "id" : "5hnCrCz8kqsgvUE5FZr22K",
+    "name" : "p_USA_SSN",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5hnCrCz8kqsgvUE5FZr22K"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses the SSN in the format XXX-XX-XXXX",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

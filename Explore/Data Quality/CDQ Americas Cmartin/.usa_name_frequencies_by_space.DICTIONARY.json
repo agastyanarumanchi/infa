@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "clG71cwqsOjg694ebp8mMu",
+    "name" : "usa_name_frequencies_by_space",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "clG71cwqsOjg694ebp8mMu"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The reference tables list the usa name frequency with a space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.399Z",
+  "objectRefs" : [ ]
+}

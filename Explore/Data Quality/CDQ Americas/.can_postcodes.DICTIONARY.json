@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "78ZERvOzmYmemJ2hletXSt",
+    "name" : "can_postcodes",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "78ZERvOzmYmemJ2hletXSt"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table contains list of Canadian postcodes ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.698Z",
+  "objectRefs" : [ ]
+}

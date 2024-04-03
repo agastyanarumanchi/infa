@@ -1,0 +1,88 @@
+{
+  "objectInfo" : {
+    "id" : "avc2cbGAJsTjSXYyQD79KW",
+    "name" : "mplt_aus_bank_account_number_validate",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007F"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rules validates an Australia Bank account number between 7 to 13 digits. \n\nChecks for format and length.\n\nFormats parsed: nnnnnnn, nnnnnnnnn, nnnnnnnnnnnnn etc.\n\nTags: Finance, Australia, Validate",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.394Z",
+  "objectRefs" : [ {
+    "id" : "5ZhRyiUiIMkhVAUgmtwxO6",
+    "name" : "lbl_australia_bank_acct_number",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5ZhRyiUiIMkhVAUgmtwxO6"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates a Australia bank account number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "7Vgr1HFTj6vgBcciyJZg8V",
+    "name" : "c_Remove_Space",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7Vgr1HFTj6vgBcciyJZg8V"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all occurrences of a space from the input field.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "0bBTgqRX2QldsAjgYcHFAh",
+    "name" : "c_Remove_Punctuation",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0bBTgqRX2QldsAjgYcHFAh"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all occurrences of punctuation from the input field.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

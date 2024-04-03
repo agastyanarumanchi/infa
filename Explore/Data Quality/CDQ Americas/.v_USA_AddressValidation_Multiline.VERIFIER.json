@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "6xPHig9eT4kgvritDJGpCu",
+    "name" : "v_USA_AddressValidation_Multiline",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6xPHig9eT4kgvritDJGpCu"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verifies the US address in multiline format.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.356Z",
+  "objectRefs" : [ ]
+}

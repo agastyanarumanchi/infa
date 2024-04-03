@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4X7YSXxLehEgNbIC2bm90x",
+    "name" : "p_nzl_phone",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4X7YSXxLehEgNbIC2bm90x"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a New Zealand phone number with the phone code.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.524Z",
+  "objectRefs" : [ ]
+}

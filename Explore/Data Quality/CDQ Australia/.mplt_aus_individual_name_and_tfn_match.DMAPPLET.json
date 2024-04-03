@@ -1,0 +1,111 @@
+{
+  "objectInfo" : {
+    "id" : "0XGLspMfHKBg8GiCYKl8QD",
+    "name" : "mplt_aus_individual_name_and_tfn_match",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000009P"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet finds duplicate rows of personal name and TFN data grouped by TFN.\n\n\nTags: Matching, Name, Australia, TFN, Customer",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.442Z",
+  "objectRefs" : [ {
+    "id" : "0bBTgqRX2QldsAjgYcHFAh",
+    "name" : "c_Remove_Punctuation",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0bBTgqRX2QldsAjgYcHFAh"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all occurrences of punctuation from the input field.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "ktV8xF9qIuHbjFGWvaYWi6",
+    "name" : "dedupe_aus_individual_name_tfn_match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "ktV8xF9qIuHbjFGWvaYWi6"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches AUS individual name and TFN data.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "b73c43VU8S5dtr4li0NcSm",
+    "name" : "c_Uppercase",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "b73c43VU8S5dtr4li0NcSm"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Converts the input text to uppercase.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "9kvbGFFSIMchrd9B6BZucu",
+    "name" : "mplt_aus_given_name_standard",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000093"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet returns a standard name for common nicknames, for example, Robert is return with input of Bob.\n\nTags: Australia, Consistency, Accuracy",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

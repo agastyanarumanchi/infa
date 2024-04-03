@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "3NXjIciNpM3jw5YD2b7BwJ",
+    "name" : "p_deu_passport",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3NXjIciNpM3jw5YD2b7BwJ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a German passport number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.379Z",
+  "objectRefs" : [ ]
+}

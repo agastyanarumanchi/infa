@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "kWDhcKzRhQQfLpTGNYa2Gz",
+    "name" : "mplt_aus_healthcare_identifier_parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006Z"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rules parse an Australia Health Identifier (IHI number -Individual Health Care, HPI-I Healthcare Provider Identifier - Individual (HPI-I) - and HPO-O -Healthcare Provider Identifier - Organization (HPI-O)  from a longer string. Health Identifiers numbers are a 16 digit string. \nAs a result, this rule will parse any 16 digit string contained in the full text as a number that conforms to the format 800360/1/2 NNNNNNNNNN.\n \nTags: Health, Australia, Parse",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.395Z",
+  "objectRefs" : [ {
+    "id" : "2d5dzx3Pt29hccinaL3io3",
+    "name" : "c_merge_fields",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2d5dzx3Pt29hccinaL3io3"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The cleanse asset is used to merge the Overflow, Before,  After and Unparsed fields from the parse asset.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "lHi9zMSvXoFfdoirXPG48v",
+    "name" : "p_aus_health_id",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "lHi9zMSvXoFfdoirXPG48v"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a 16 digit IHI number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

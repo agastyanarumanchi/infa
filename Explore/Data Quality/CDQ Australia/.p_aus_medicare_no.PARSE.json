@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4e5JjBCgzAPdyk8kllJxMh",
+    "name" : "p_aus_medicare_no",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4e5JjBCgzAPdyk8kllJxMh"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parse an Australian Medicare number from a string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.032Z",
+  "objectRefs" : [ ]
+}

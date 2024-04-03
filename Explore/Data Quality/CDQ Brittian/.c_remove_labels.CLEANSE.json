@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4tGPPXjJmgxbDtbRtbgk6w",
+    "name" : "c_remove_labels",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4tGPPXjJmgxbDtbRtbgk6w"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes X and 9.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.509Z",
+  "objectRefs" : [ ]
+}

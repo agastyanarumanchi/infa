@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "kR5mSHHU9yEb0eFWmFH2OH",
+    "name" : "c_Replace_numbers_alpha_w_9X",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kR5mSHHU9yEb0eFWmFH2OH"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces all numbers with a '9' and alphabets with an 'X'",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.474Z",
+  "objectRefs" : [ ]
+}

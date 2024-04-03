@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "8uTWrgdvEd2exEkAvSR9oG",
+    "name" : "p_aus_bsb_number",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8uTWrgdvEd2exEkAvSR9oG"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses an Australian BSB (Bank-State-Branch) Number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.827Z",
+  "objectRefs" : [ ]
+}

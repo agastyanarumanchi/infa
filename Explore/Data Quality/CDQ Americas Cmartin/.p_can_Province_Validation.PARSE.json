@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "0Om3oxyRPBFbZT1Y77AuYa",
+    "name" : "p_can_Province_Validation",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0Om3oxyRPBFbZT1Y77AuYa"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses Canadian province and validates the input ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.474Z",
+  "objectRefs" : [ {
+    "id" : "7bKSY7bh7D6kiC5fB4CjaB",
+    "name" : "can_provinces_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7bKSY7bh7D6kiC5fB4CjaB"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This ref table contains list of Canadian provinces ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "jkoKa7HzgUjiAUyos0ZLyO",
+    "name" : "c_BRA_Correct_Misspellings_Names",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "jkoKa7HzgUjiAUyos0ZLyO"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Correct Brazilian misspelt names. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.037Z",
+  "objectRefs" : [ {
+    "id" : "1RdDf2Cr0EJlfJEd0vZTQj",
+    "name" : "bra_names_mispelled_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1RdDf2Cr0EJlfJEd0vZTQj"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This dictionary contains the list if misspelled Brazilian names.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

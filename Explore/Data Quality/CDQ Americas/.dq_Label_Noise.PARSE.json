@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "fGeGueTHPUFfSs4FFFMAwM",
+    "name" : "dq_Label_Noise",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "fGeGueTHPUFfSs4FFFMAwM"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes characters in a phone number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.365Z",
+  "objectRefs" : [ ]
+}

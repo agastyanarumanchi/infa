@@ -1,0 +1,91 @@
+{
+  "objectInfo" : {
+    "id" : "cAR90jK8CgalPmKgs7vUCC",
+    "name" : "mplt_ESP_NIE_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006D"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "The rules parses a Spanish NiE (Número de Identidad/Identificación de Extranjero) from a larger string,\nthis number is issued to all foreigners once they obtain residency and will appear on their Residency Card.\n\nTags: Spain, Parse, Conformity, Accuracy",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.355Z",
+  "objectRefs" : [ {
+    "id" : "8qga9mWluZIisaa4ijy5uI",
+    "name" : "c_Merge_Parse_Text",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8qga9mWluZIisaa4ijy5uI"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Merge the Columns- Before, After, Overflow and Unparsed from the parser. Remove multiple spaces, leading and trailing spaces.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  }, {
+    "id" : "1xbGOJ9u7UEfOvkbo1gvw6",
+    "name" : "p_esp_nie",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1xbGOJ9u7UEfOvkbo1gvw6"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses an Spain NIE number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  }, {
+    "id" : "ar5lMBholGgjxaadl0b5cR",
+    "name" : "mplt_Remove_Punctuation_and_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000055"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all punctuation symbols and character spaces from an input field, and returns the remaining digits and letters.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  } ]
+}

@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "eaBKt2DXy6BeojIjJk9bMa",
+    "name" : "mplt_BRA_Address_Validation_Hybrid_Geo",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001Z"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses Brazilian address data into proper components. It does not validate the address.\n\nTags: Brazil, Address, Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.357Z",
+  "objectRefs" : [ {
+    "id" : "lrEPOggQISHczo9wUvF0YS",
+    "name" : "v_BRA_AddressValidation_Hyb_w_Geo",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "lrEPOggQISHczo9wUvF0YS"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verifies Brazilian address in hybrid format with geocode. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "78gL4l2Fx4efmNG9EVVQKU",
+    "name" : "mplt_Assign_DQ_GeocodingStatus_Description",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001M"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet assigns a description string to the Geocoding Status output from the Address Validator transformation.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

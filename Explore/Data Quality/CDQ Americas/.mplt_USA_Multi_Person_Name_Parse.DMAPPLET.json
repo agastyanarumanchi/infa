@@ -1,0 +1,108 @@
+{
+  "objectInfo" : {
+    "id" : "5IMmPFQ42rckKraE9Otf6t",
+    "name" : "mplt_USA_Multi_Person_Name_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001C"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses input nameline into proper name components.\n\nTags: Customer, Standardize, Parse, USA, Name",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.026Z",
+  "objectRefs" : [ {
+    "id" : "0JmLshDGKdJihIIxYmtTMz",
+    "name" : "p_Parse_US_FullName",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0JmLshDGKdJihIIxYmtTMz"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses US fullname in Multiname format.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "hwLBLpdJT2xctLFjpMWKAQ",
+    "name" : "c_US_Lbl_OLN1",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hwLBLpdJT2xctLFjpMWKAQ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "labels US surname.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "aM2VUBfTVG1eOMLpcUQfk3",
+    "name" : "c_US_Lbl_OLN2",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "aM2VUBfTVG1eOMLpcUQfk3"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labels US surname.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "eHfPjWDtd40eksKHI1RFIo",
+    "name" : "c_US_FullName",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "eHfPjWDtd40eksKHI1RFIo"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labels US full name.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7fCAj0Q4FKnluFEPzWaEw4",
+    "name" : "bra_company_suffix_std_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7fCAj0Q4FKnluFEPzWaEw4"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Brazil company name suffix.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.318Z",
+  "objectRefs" : [ ]
+}

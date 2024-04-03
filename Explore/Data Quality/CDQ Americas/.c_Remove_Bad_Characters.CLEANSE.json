@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "5HIYCyQj7TdddHVbV4Jqy2",
+    "name" : "c_Remove_Bad_Characters",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5HIYCyQj7TdddHVbV4Jqy2"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all bad characters i.e. symbols.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.312Z",
+  "objectRefs" : [ ]
+}

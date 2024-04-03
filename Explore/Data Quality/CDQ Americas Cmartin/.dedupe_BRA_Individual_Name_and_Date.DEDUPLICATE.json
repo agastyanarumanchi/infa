@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7HpKwvN0WmxdXaXoZ1ZN6c",
+    "name" : "dedupe_BRA_Individual_Name_and_Date",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7HpKwvN0WmxdXaXoZ1ZN6c"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Individual name and date match based with date as index.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.580Z",
+  "objectRefs" : [ ]
+}

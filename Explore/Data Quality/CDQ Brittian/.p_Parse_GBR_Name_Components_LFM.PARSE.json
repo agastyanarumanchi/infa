@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "8uOGJojEH5ieLMFnX6rXg7",
+    "name" : "p_Parse_GBR_Name_Components_LFM",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8uOGJojEH5ieLMFnX6rXg7"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses the various name components for GBR (LFM).",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.439Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "69VDZNqkruQk6e1UBqghG6",
+    "name" : "mplt_Remove_Non_Numbers",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006N"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all characters that are not a digit or number from an input string.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.599Z",
+  "objectRefs" : [ ]
+}

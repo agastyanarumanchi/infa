@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "8k12NHtdDZola7PVNceKaY",
+    "name" : "p_aus_company_number",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8k12NHtdDZola7PVNceKaY"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parse an Australian Company Number from a string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.681Z",
+  "objectRefs" : [ ]
+}

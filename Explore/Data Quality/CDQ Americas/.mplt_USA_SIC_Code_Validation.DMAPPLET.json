@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "lzfhG7Jz1aUj7jxaBMsQoU",
+    "name" : "mplt_USA_SIC_Code_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001U"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet validates Standard Industrial Classification (SIC) codes. Returns status of Valid and the description for the code if valid or Invalid and a short explaination why.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.881Z",
+  "objectRefs" : [ {
+    "id" : "4DOkUQYVMw8f3u0IouQTCY",
+    "name" : "c_US_SIC_Code_Description",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4DOkUQYVMw8f3u0IouQTCY"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes USA SIC codes.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "exNrhpHayacdZHZDN7e9i5",
+    "name" : "rs_USA_SIC_Validation",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "exNrhpHayacdZHZDN7e9i5"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates the US Standard Industrial Classification (SIC) code.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

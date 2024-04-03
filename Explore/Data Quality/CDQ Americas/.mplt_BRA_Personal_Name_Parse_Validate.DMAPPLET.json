@@ -1,0 +1,211 @@
+{
+  "objectInfo" : {
+    "id" : "af5nfmNhLctgvny7qiLj6b",
+    "name" : "mplt_BRA_Personal_Name_Parse_Validate",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000025"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses Brazilian names input in a single field into separate components and provides \ninformation on if the spelling was corrected or if the data might be a potential company name.\n\nTags: Customer, Name, Validate, Parse, Profile, Brazil",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.041Z",
+  "objectRefs" : [ {
+    "id" : "4O251jS2yxbjeAAkNtoZaX",
+    "name" : "c_Uppercase",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4O251jS2yxbjeAAkNtoZaX"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Converts input text to Upper Case format.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "0yD59eYitAHdKF5X3DlBQV",
+    "name" : "p_BRA_Parse_PostName",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0yD59eYitAHdKF5X3DlBQV"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses Brazil postname.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "jkoKa7HzgUjiAUyos0ZLyO",
+    "name" : "c_BRA_Correct_Misspellings_Names",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "jkoKa7HzgUjiAUyos0ZLyO"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Correct Brazilian misspelt names. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "3KfVDufA78Kcs7Bzm7fkeF",
+    "name" : "p_BRA_parse_NameDesignator",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3KfVDufA78Kcs7Bzm7fkeF"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses name designator for Brazil.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "20JlZs5MCiukMCX8uXAE6T",
+    "name" : "mplt_BRA_Gender_Assingment",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001F"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet assigns the gender based on the first name and if the last name contains Junior or other similar words.\n\nTags: Matching, Address, Customer, Name, Great Britain, Europe, UK",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "5HIYCyQj7TdddHVbV4Jqy2",
+    "name" : "c_Remove_Bad_Characters",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5HIYCyQj7TdddHVbV4Jqy2"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all bad characters i.e. symbols.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "0DYXc4FHCkyfymQIdHi3Sr",
+    "name" : "c_BRA_Correct_Misspellings_Name_Status",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0DYXc4FHCkyfymQIdHi3Sr"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes misspelt names for Brazil.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "9NUJYgOp3U7iBl7a1c340B",
+    "name" : "c_BRA_Detect_Company_Names",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9NUJYgOp3U7iBl7a1c340B"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Detects Brazilian company names.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "68B5ayhLl4scuDAzKplmsB",
+    "name" : "p_BRA_Parse_Prename",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "68B5ayhLl4scuDAzKplmsB"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "parses Brazil prename.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

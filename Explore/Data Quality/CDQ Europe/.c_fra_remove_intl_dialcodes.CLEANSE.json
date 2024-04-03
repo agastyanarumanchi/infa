@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "2lJ969fYl6IkKkZjOOr4mN",
+    "name" : "c_fra_remove_intl_dialcodes",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2lJ969fYl6IkKkZjOOr4mN"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes the international dial codes for France.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.178Z",
+  "objectRefs" : [ ]
+}

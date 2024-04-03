@@ -1,0 +1,114 @@
+{
+  "objectInfo" : {
+    "id" : "7DmpVDJwiuMjPSJhs6uXIh",
+    "name" : "mplt_BRA_Indvidual_Name_and_Date_Match",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000004M"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet finds duplicate rows of personal name and date data grouped by date.\nThreshold frequency is set to 80%.\n\nTags: Uniqueness",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.573Z",
+  "objectRefs" : [ {
+    "id" : "3CuVnq2q0kJdjQFUDPBlGb",
+    "name" : "mplt_BRA_Given_Name_Standard",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000044"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet returns a standard name for common nicknames, for example, Robert is return with input of Bob.\n\nTags: Integrity, Conformity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "7HpKwvN0WmxdXaXoZ1ZN6c",
+    "name" : "dedupe_BRA_Individual_Name_and_Date",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7HpKwvN0WmxdXaXoZ1ZN6c"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Individual name and date match based with date as index.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "4AjG7l430CtbWCk6LWzAql",
+    "name" : "mplt_UpperCase",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000033"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet changes the case to UPPER for all input data.\n\nTags: Conformity/Validity, Consistency",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "kgnoj8YxWYBi5FW7YE1dOG",
+    "name" : "c_Remove_Punctuation",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kgnoj8YxWYBi5FW7YE1dOG"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all punctuation occurrences in in the input.\n",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

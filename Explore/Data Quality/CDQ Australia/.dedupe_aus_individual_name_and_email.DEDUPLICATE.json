@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "cmzL51ddMK2bA4Nndd5o29",
+    "name" : "dedupe_aus_individual_name_and_email",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "cmzL51ddMK2bA4Nndd5o29"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Objective type Individual - dependency of mplt_AUS_Individual_Name_and_Email_MatchScore.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.057Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,94 @@
+{
+  "objectInfo" : {
+    "id" : "3sBw6fVCZw9lGX5PGilda0",
+    "name" : "mplt_USA_SSN_Parse_Standardize_and_Validate",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000002C"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Parses a US SSN pattern from a larger string of text. SSNs with dashes or without dashes will be parsed.\nFormats and validates the SSN.  Format options include without punctuation, with punctuation and spaces.\nChange the variable port SSN_Format in the dq_SSN_Format transform as desired.  \nDefault output is without punctuation.\n\nTags: SSN, National Id, Customer, USA, Tax, North America, Parse",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.363Z",
+  "objectRefs" : [ {
+    "id" : "3Q8mFdxPtfOcgtmMveYHG2",
+    "name" : "p_Parse_SSN",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3Q8mFdxPtfOcgtmMveYHG2"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parse an SSN from a string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "7UxW593g08ig6MgS5twMul",
+    "name" : "mplt_USA_SSN_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000013"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet checks the Area (first 3 numbers) and Group (middle 2 numbers) are a valid combination and other checks for all 0s.  It does not check if the SSN is an issued number.  Rule accurately validates SSNs issued prior to June 25, 2011due to SSN Randomization.  See Docket No. SSA 2007-0046 for more information.\n\nTags: SSN, Tax, USA, Validate, North America, Customer, National Id, Profile",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "3m4zfV217gjlhsVdwRYa8I",
+    "name" : "mplt_USA_SSN_Validation_post_June2011",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000A"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule validates a Social security number for length, numeric values and known min/max values of the area, group and serial number sections.  It does not check if the SSN is an issued number and no longer validates the group and area number combination due to SSN Randomization effective June 25, 2011.  See Docket No. SSA 2007-0046 for more information.\n\nTags: Accuracy, Conformity/Validity, Restricted, PII, USA",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

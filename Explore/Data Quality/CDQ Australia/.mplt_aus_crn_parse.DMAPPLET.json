@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "5ZfjokAwwSdjkoZeQK5mOs",
+    "name" : "mplt_aus_crn_parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000083"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses an Australian Centrelink Reference Number (CRN) from a string of text. The CRN consists of nine digits and an alphabet at the end.\n\nTags: Australia, Parse, Conformity, Accuracy",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.510Z",
+  "objectRefs" : [ {
+    "id" : "2d5dzx3Pt29hccinaL3io3",
+    "name" : "c_merge_fields",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2d5dzx3Pt29hccinaL3io3"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The cleanse asset is used to merge the Overflow, Before,  After and Unparsed fields from the parse asset.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "3ObSjuvSvBAgcZvt7JP4qE",
+    "name" : "p_aus_crn",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3ObSjuvSvBAgcZvt7JP4qE"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses Australian Customer Reference Number (CRN) which consists of 9 digits and an alphabet at the end. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

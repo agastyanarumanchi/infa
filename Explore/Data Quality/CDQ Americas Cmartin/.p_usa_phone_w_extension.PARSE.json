@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "5cOkTOyTx42jqmZWJQcGCH",
+    "name" : "p_usa_phone_w_extension",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5cOkTOyTx42jqmZWJQcGCH"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a phone number including an extension for the USA from a larger string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.182Z",
+  "objectRefs" : [ ]
+}

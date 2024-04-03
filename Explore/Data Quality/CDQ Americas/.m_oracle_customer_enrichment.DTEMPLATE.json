@@ -1,0 +1,91 @@
+{
+  "objectInfo" : {
+    "id" : "612aPUaIPOVjPP3bTEyvSZ",
+    "name" : "m_oracle_customer_enrichment",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2617000000000004"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.826Z",
+  "objectRefs" : [ {
+    "id" : "0PppsCgkPcAj4whCyAuU2X",
+    "name" : "rn_oracle",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T260B00000000000C"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "4ZfBXY9WasNbzLxe1ZHk2t",
+    "name" : "cleanse_standardize_gender",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4ZfBXY9WasNbzLxe1ZHk2t"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "gets gender to standardized dictionary values",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "6DSkPY76I7yhaeUe6Zu8I5",
+    "name" : "mplt_USA_Phone_Number_Standardization",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000006"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet standardizes the format of the phone string to have \nstandard - (nnn) nnn-nnnn\ndashes - nnn-nnn-nnnn\nno spaces - nnnnnnnnnn\nPhone_w_Extension  - (nnn) nnn-nnnn ext nnnnn\n\nTags: Standardize, USA, Customer, North America, Company, Phone",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

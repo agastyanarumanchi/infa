@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "66TV1karHmIb7SpDav0gA1",
+    "name" : "p_FN_metrics_to_ind_fields",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "66TV1karHmIb7SpDav0gA1"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parser parses metrics into fields.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.314Z",
+  "objectRefs" : [ ]
+}

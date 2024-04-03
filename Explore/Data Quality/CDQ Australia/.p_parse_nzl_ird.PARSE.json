@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "6rxTDjez8N5fpiNTiiRfoC",
+    "name" : "p_parse_nzl_ird",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6rxTDjez8N5fpiNTiiRfoC"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses 8 and 9 digits New Zealand Inland Revenue Dept. (IRD) Number from a string of text.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.057Z",
+  "objectRefs" : [ ]
+}

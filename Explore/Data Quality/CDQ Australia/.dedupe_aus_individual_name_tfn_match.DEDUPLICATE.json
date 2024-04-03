@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "ktV8xF9qIuHbjFGWvaYWi6",
+    "name" : "dedupe_aus_individual_name_tfn_match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "ktV8xF9qIuHbjFGWvaYWi6"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches AUS individual name and TFN data.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.379Z",
+  "objectRefs" : [ ]
+}

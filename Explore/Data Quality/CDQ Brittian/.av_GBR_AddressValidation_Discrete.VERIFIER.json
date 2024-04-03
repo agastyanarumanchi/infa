@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "25p1vmpNeQ9kSVNZeRAkeh",
+    "name" : "av_GBR_AddressValidation_Discrete",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "25p1vmpNeQ9kSVNZeRAkeh"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Address Verification returns each level of sub-building information  in a discrete output field.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.569Z",
+  "objectRefs" : [ ]
+}

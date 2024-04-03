@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "8vlH1AxcD29dgWp2nVuXOO",
+    "name" : "c_esp_remove_intl_dialing_code",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8vlH1AxcD29dgWp2nVuXOO"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes international dialing telephone codes used for Spain.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.188Z",
+  "objectRefs" : [ ]
+}

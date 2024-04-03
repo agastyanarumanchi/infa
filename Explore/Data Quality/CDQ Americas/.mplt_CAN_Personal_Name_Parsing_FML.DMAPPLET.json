@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "3arF8mCkQLhkkRsm4CAcQ8",
+    "name" : "mplt_CAN_Personal_Name_Parsing_FML",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001L"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses input name lines in First-Middle-Last format into discrete components.\n\nTags: Canada, Customer, Parse, Name, North America",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.028Z",
+  "objectRefs" : [ {
+    "id" : "9ip6G0oex0GcHQEciD1uEQ",
+    "name" : "mplt_Remove_Extra_Spaces",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000L"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet replaces multiple consecutive spaces with a single space and trims leading and trailing spaces.\n\nTags: Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "lp4EQgUf482f1BzRznELSG",
+    "name" : "P_Parse_Name_Components_FML_Can",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "lp4EQgUf482f1BzRznELSG"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The parser parses the name components for Canada ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

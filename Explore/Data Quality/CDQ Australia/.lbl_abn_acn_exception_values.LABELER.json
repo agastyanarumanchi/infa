@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "ilfXgt22MirhhQUFdEdnqy",
+    "name" : "lbl_abn_acn_exception_values",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "ilfXgt22MirhhQUFdEdnqy"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Check if the input value is in the list of Australia Business number exception values and marks it as invalid if present and valid if not.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.547Z",
+  "objectRefs" : [ {
+    "id" : "f4PTey3eKgDiskKoMbDQso",
+    "name" : "abn_acn_exception_values",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "f4PTey3eKgDiskKoMbDQso"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of values that cannot be used as a valid Australian Business Number (ABN) or Australian Company Number (ACN).",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

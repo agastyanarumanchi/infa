@@ -1,0 +1,91 @@
+{
+  "objectInfo" : {
+    "id" : "1rQy8UmqhhsgSzyvqJeY84",
+    "name" : "mplt_BRA_Company_Suffix_Standardization",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000028"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet standardizes the company suffix if one is present.\n\nTags: Brazil, Corporate, Integrity/Conformity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.080Z",
+  "objectRefs" : [ {
+    "id" : "62xm9os1BIlbFTbDFstvsr",
+    "name" : "c_replace_ltd_punct_w_space",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "62xm9os1BIlbFTbDFstvsr"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces limited punctuation with space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "jnkl3yLTTgRdHoO7WN4sGU",
+    "name" : "c_BRA_Standardize_Company_Suffix",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "jnkl3yLTTgRdHoO7WN4sGU"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes Brazilian company names using the bra_company_suffix_std_infa dictioanry.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "8b078FYX3G5kPAMOgR8Wcl",
+    "name" : "mplt_TitleCase",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000011"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet converts the case of the input text to title case meaning, the first character of each word is upper case while the remainder are lower case.\n\nTags: Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

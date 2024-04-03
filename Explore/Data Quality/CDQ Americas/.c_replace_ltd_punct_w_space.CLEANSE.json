@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "62xm9os1BIlbFTbDFstvsr",
+    "name" : "c_replace_ltd_punct_w_space",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "62xm9os1BIlbFTbDFstvsr"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces limited punctuation with space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.439Z",
+  "objectRefs" : [ ]
+}

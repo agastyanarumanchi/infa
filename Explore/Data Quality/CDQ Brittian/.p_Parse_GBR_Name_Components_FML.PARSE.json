@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "39p8QsdltyyjEle0lHC6kc",
+    "name" : "p_Parse_GBR_Name_Components_FML",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "39p8QsdltyyjEle0lHC6kc"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses the various name components for GBR (FML).",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.315Z",
+  "objectRefs" : [ ]
+}

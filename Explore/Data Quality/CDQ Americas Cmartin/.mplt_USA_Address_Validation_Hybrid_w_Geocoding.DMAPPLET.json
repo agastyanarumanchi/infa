@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "05y1ccmLr39f5qQSJGTXOF",
+    "name" : "mplt_USA_Address_Validation_Hybrid_w_Geocoding",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000004N"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet validates US address data which is in hybrid format, meaning fields with combined street data and discrete fields for city, state and zip code.\n\nTags: US, Address, Accuracy,Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.692Z",
+  "objectRefs" : [ {
+    "id" : "0YD9FMAr97bhEQC2VL140n",
+    "name" : "v_US_AddressValidation_Hyb_w_Geo",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0YD9FMAr97bhEQC2VL140n"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verifies US address in Hybrid format with geocode.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "6aSGzDxsFYabFcgnAvMZ0d",
+    "name" : "mplt_Assign_DQ_Match_Code_Description",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000004B"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet provides a brief description or meaning for the Address Match Code value.\n\nTags: Accuracy",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "1XX89JAkuLUbwSgggJRCIk",
+    "name" : "p_nzl_phone_number",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1XX89JAkuLUbwSgggJRCIk"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses New Zealand phone number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.511Z",
+  "objectRefs" : [ {
+    "id" : "2CL4fafL3CgjSusl9QaPW1",
+    "name" : "nzl_tel_area_codes_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2CL4fafL3CgjSusl9QaPW1"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of New Zealand telephone area codes.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "kqi8aoOqSYTdvAPbskFsAn",
+    "name" : "av_GBR_Parse_Multiline_Address",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kqi8aoOqSYTdvAPbskFsAn"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "AV for GBR Multiline",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.693Z",
+  "objectRefs" : [ ]
+}

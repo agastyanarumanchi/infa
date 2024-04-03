@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4SG7JYzh7Ckkkzpgy0SG4P",
+    "name" : "p_deu_id",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4SG7JYzh7Ckkkzpgy0SG4P"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a German ID card number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.881Z",
+  "objectRefs" : [ ]
+}

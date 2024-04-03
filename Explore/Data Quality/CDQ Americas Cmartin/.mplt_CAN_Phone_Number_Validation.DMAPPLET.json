@@ -1,0 +1,88 @@
+{
+  "objectInfo" : {
+    "id" : "aGe05fSRc49e1uB6kfAtEq",
+    "name" : "mplt_CAN_Phone_Number_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000003T"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet validates the area code and length of Canadian phone numbers.\nQuality scores are:  0 - NULL or blank input\n\t\t\t\t\t10 - Invalid length\n\t\t\t\t\t40 - Valid length, Invalid Area Code\n\t\t\t\t\t95\t- Valid length and Area Code\n\nTags: Profile, Phone, Validate, Canada, Customer, Company",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.386Z",
+  "objectRefs" : [ {
+    "id" : "0HgiJP3xj2chaDj7TNWHWu",
+    "name" : "rs_validate_area_code",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0HgiJP3xj2chaDj7TNWHWu"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Null check for area code.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "6F7XozJqITzkFpDVa48tOn",
+    "name" : "dq_Label_Noise",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6F7XozJqITzkFpDVa48tOn"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes characters in a phone number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "dJCEsD5brUshdlp7hyGd4J",
+    "name" : "P_Parse_CAN_validate_area_code",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "dJCEsD5brUshdlp7hyGd4J"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The parser validates the Canadian area code ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

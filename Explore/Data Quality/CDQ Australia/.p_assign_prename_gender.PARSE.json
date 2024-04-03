@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "3Y4TKGgqSqFkAWgffT4ZgR",
+    "name" : "p_assign_prename_gender",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3Y4TKGgqSqFkAWgffT4ZgR"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assign gender depending on honorifics",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.503Z",
+  "objectRefs" : [ {
+    "id" : "7IrQFaxqZRMcTV7xqjGV0y",
+    "name" : "aus_prename_gender_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7IrQFaxqZRMcTV7xqjGV0y"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of courtesy titles and the genders associated with them",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

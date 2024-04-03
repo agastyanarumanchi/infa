@@ -1,0 +1,51 @@
+{
+  "objectInfo" : {
+    "id" : "eVs3O86XV6niSAdW2Cwj0j",
+    "name" : "mplt_aus_business_number_validate",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000090"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet validates Australian Business number according to the following rules:\n\t1. Subtract 1 from the first (left) digit to give a new eleven digit number \n\t2. Multiply each of the digits in this new number by its weighting factor \n\t3. Sum the resulting 11 products \n\t4. Divide the total by 89, noting the remainder \n\t5. If the remainder is zero the number is valid\n\nRule assumes that the ABN is formatted by mplt_AUS_Business_Number_Standardize or is an 11 digit numeric string.\n\nTags: Australia, Validity, Conformity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.058Z",
+  "objectRefs" : [ {
+    "id" : "3Z0IpnxmsFZchisDq2Tek8",
+    "name" : "mplt_Remove_Punctuation_and_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000072"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all punctuation symbols and character spaces from an input field, and returns the remaining digits and letters.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

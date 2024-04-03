@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "aGl1duICsLcel9lfvSqtER",
+    "name" : "mplt_GBR_Driver_Number_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000078"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule validates the driver number for the UK. Rules are implemented based on the UK Government Data Standards Catalogue standard validations for this entity.\n\nTags: UK, Contact, Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.564Z",
+  "objectRefs" : [ {
+    "id" : "kR5mSHHU9yEb0eFWmFH2OH",
+    "name" : "c_Replace_numbers_alpha_w_9X",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kR5mSHHU9yEb0eFWmFH2OH"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces all numbers with a '9' and alphabets with an 'X'",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "4tGPPXjJmgxbDtbRtbgk6w",
+    "name" : "c_remove_labels",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4tGPPXjJmgxbDtbRtbgk6w"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes X and 9.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

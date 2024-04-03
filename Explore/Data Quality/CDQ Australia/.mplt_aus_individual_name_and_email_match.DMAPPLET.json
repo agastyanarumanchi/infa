@@ -1,0 +1,91 @@
+{
+  "objectInfo" : {
+    "id" : "2B5UErKQd2Mku9mTQGBfcr",
+    "name" : "mplt_aus_individual_name_and_email_match",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000096"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet finds duplicate rows of Australia personal name and email data grouped by email. \nThreshold frequency is set to 80%.\n\nTags: Uniqueness, Australia, Match",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.573Z",
+  "objectRefs" : [ {
+    "id" : "0bBTgqRX2QldsAjgYcHFAh",
+    "name" : "c_Remove_Punctuation",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0bBTgqRX2QldsAjgYcHFAh"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all occurrences of punctuation from the input field.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "lxZbjCCwYqpkSMnnAveRek",
+    "name" : "mplt_UpperCase",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007M"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Changes alphabetic characters to uppercase.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "cmzL51ddMK2bA4Nndd5o29",
+    "name" : "dedupe_aus_individual_name_and_email",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "cmzL51ddMK2bA4Nndd5o29"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Objective type Individual - dependency of mplt_AUS_Individual_Name_and_Email_MatchScore.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

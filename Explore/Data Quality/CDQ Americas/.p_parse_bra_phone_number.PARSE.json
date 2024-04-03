@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "9mEco15GfWlkka43gr95kZ",
+    "name" : "p_parse_bra_phone_number",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9mEco15GfWlkka43gr95kZ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : " Parses the Brazilian phone number from a string input.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.482Z",
+  "objectRefs" : [ ]
+}

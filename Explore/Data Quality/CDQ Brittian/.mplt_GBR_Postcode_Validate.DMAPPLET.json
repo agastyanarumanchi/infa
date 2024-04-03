@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "7MS2iXHVf47hJBDQYMYkaV",
+    "name" : "mplt_GBR_Postcode_Validate",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007G"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule checks to see if the postcode matches the list of valid postcode in the UK or  if the postcode matches the standard pattern definition for a UK postcode. Rule assume that the postcode has been standardized.\n\nTags: UK, Address, Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.684Z",
+  "objectRefs" : [ {
+    "id" : "5Jg6HKI2Rxzj7yj9grc4w8",
+    "name" : "p_GBR_Postcode_Validate_Format",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5Jg6HKI2Rxzj7yj9grc4w8"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a GBR postcode that matches the GBR postcode formats",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "2g2EJK27mUqi3GKzZQtR8H",
+    "name" : "mplt_GBR_Address_Validation_Discrete",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000009F"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet validates United Kingdom address data which is in discrete format, meaning parsed into proper fields.\n\nTags: UK, Address, Accuracy, Conformity/Validity\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.180Z",
+  "objectRefs" : [ {
+    "id" : "25p1vmpNeQ9kSVNZeRAkeh",
+    "name" : "av_GBR_AddressValidation_Discrete",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "25p1vmpNeQ9kSVNZeRAkeh"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Address Verification returns each level of sub-building information  in a discrete output field.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "hZdM6sXamilbLo3xPFLQcn",
+    "name" : "mplt_Assign_DQ_Match_Code_Description",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000094"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Describes the Match Score score value that a verifier asset returns.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

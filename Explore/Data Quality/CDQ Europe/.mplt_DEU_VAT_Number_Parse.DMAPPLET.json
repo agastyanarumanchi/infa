@@ -1,0 +1,91 @@
+{
+  "objectInfo" : {
+    "id" : "0OKmMJLpfPpj13hVDM1JWD",
+    "name" : "mplt_DEU_VAT_Number_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006M"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Parses the German VAT number from a longer string. \n\nThe German VAT number is a 9 digit number or DE followed by 9 digits.\n\nTags: Germany, Parse, Conformity, Accuracy\n\nSample format : 999999999",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.567Z",
+  "objectRefs" : [ {
+    "id" : "8qga9mWluZIisaa4ijy5uI",
+    "name" : "c_Merge_Parse_Text",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8qga9mWluZIisaa4ijy5uI"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Merge the Columns- Before, After, Overflow and Unparsed from the parser. Remove multiple spaces, leading and trailing spaces.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  }, {
+    "id" : "656HijJZ6cCfJOSCvzyQEL",
+    "name" : "p_deu_vat",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "656HijJZ6cCfJOSCvzyQEL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a German VAT number from a longer string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  }, {
+    "id" : "3fZgprGmTKrcVwMIikEry7",
+    "name" : "mplt_UpperCase",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000005A"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Changes alphabetic characters to uppercase.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  } ]
+}

@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "3sCZUVTvkwCltmHvuDv5Gx",
+    "name" : "mplt_USA_Given_Name_Standard",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001N"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet returns a standard name for common nicknames, for example, Robert is return with input of Bob.\n\nTags: Conformity/Validity,US,Contact, Americas",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.205Z",
+  "objectRefs" : [ {
+    "id" : "6T33lKVlfkwbfY5v6z6z46",
+    "name" : "c_US_Get_Name_Standard",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6T33lKVlfkwbfY5v6z6z46"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes 'Given Names' with standard reference table matches.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

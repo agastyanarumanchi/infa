@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "6qLH5T8Z0TkjpQ4uum6BCE",
+    "name" : "mplt_aus_company_name_standardize",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000009E"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet standardizes a company name and provides its acronym if possible.\n\nTags: Standardize, Company, Name, Australia",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.566Z",
+  "objectRefs" : [ {
+    "id" : "5PbtVe5ziMKdPMuS13sOSD",
+    "name" : "c_aus_get_company_name_std",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5PbtVe5ziMKdPMuS13sOSD"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes company name for Australia.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "48N82cW0N1DbS5t6sY7kEV",
+    "name" : "mplt_Replace_Limited_Punct_with_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006V"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Replaces punctuation symbols including a forward slash, backslash, exclamation point, period, or underscore character with a character space. Also replaces instances of two, three, or four consecutive character spaces with a single space.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

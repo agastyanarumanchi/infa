@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "5La1mZt04CPgN0yOQ9RpIZ",
+    "name" : "mplt_aus_business_number_parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007J"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses 11 digits Australian Business number from a string of text.\n\nTags: Australia, Parse, Accuracy",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.577Z",
+  "objectRefs" : [ {
+    "id" : "7rs1wOPjmGWf9UALjKeEUL",
+    "name" : "p_parse_abn",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7rs1wOPjmGWf9UALjKeEUL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses Australian Business number from a string of text.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "2d5dzx3Pt29hccinaL3io3",
+    "name" : "c_merge_fields",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2d5dzx3Pt29hccinaL3io3"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The cleanse asset is used to merge the Overflow, Before,  After and Unparsed fields from the parse asset.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

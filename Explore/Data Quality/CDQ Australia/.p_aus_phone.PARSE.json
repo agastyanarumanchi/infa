@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "9pgtRy6WwfSlOROc1is80q",
+    "name" : "p_aus_phone",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9pgtRy6WwfSlOROc1is80q"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses an Australia phone number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.205Z",
+  "objectRefs" : [ ]
+}

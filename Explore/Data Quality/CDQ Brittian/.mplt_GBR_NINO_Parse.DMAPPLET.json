@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "5oqvDy2p9Z6ht2oWX9l8Q3",
+    "name" : "mplt_GBR_NINO_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007K"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule is designed to extract a NINO from a larger string of data. Output is split between NINO and remaining output.\n\nTags: UK, Contact, Accuracy",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.319Z",
+  "objectRefs" : [ {
+    "id" : "0fLha39i0IAiB7oZKUWqK7",
+    "name" : "p_GBR_NINO",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0fLha39i0IAiB7oZKUWqK7"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Regex to parse UK NINO.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

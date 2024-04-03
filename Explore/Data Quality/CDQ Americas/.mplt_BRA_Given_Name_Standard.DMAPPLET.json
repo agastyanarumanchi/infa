@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "bM6Gil0OSWwkEdJ2UjgiSX",
+    "name" : "mplt_BRA_Given_Name_Standard",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000016"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet returns a standard name for common nicknames, for example, Robert is return with input of Bob.\n\nTags: Integrity, Conformity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.433Z",
+  "objectRefs" : [ {
+    "id" : "6TTWyK6Sk6JdaXXAR3E087",
+    "name" : "c_bra_get_name_standard",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6TTWyK6Sk6JdaXXAR3E087"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes Brazil names using the bra_nicknames_ref table",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

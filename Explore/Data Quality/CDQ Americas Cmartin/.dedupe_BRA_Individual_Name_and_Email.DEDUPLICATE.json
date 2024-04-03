@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "2DFjn1rXVvygyv06OkuOwx",
+    "name" : "dedupe_BRA_Individual_Name_and_Email",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2DFjn1rXVvygyv06OkuOwx"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Objective type Individual - dependency of mplt_Individual_Name_and_Email_MatchScore.\n\nTags: Brazil, Match, Email",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.578Z",
+  "objectRefs" : [ ]
+}

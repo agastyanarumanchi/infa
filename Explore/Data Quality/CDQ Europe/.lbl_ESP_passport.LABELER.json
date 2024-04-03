@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "0Uj0j5GmR04cmcpX6ApJ8q",
+    "name" : "lbl_ESP_passport",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0Uj0j5GmR04cmcpX6ApJ8q"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates a passport number for Spain.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.830Z",
+  "objectRefs" : [ ]
+}

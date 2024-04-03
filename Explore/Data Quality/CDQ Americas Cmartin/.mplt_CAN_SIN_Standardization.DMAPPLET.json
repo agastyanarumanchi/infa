@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "74Mvs8UwpD7biUqK69faMZ",
+    "name" : "mplt_CAN_SIN_Standardization",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000002K"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Formats Canadian Social Insurance Number (SIN) as indicated by the varible value in the expression.\nValid formats are No_Punctuation, Space or Dash for nnnnnnnnn, nnn nnn nnn or nnn-nnn-nnn respectivley.\nDefault setting is No_Punctuation.\n\nTags: Canada, Customer, National Id, Tax, Standardize, North America",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.550Z",
+  "objectRefs" : [ ]
+}

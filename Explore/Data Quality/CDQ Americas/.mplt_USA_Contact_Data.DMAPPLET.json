@@ -1,0 +1,301 @@
+{
+  "objectInfo" : {
+    "id" : "03CSI8W1beNiQd0x6dAVcL",
+    "name" : "mplt_USA_Contact_Data",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000002I"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule parses name, provides the gender and prename (Mr./Ms.) if missing and formal or casual greetings.  Standardizes Company name.  Corrects, validates \nand standardizes the address. Standardizes and validates phone, email, and SSN\n\nTags: Enrich, General, Address, USA, Composite, Contact",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.494Z",
+  "objectRefs" : [ {
+    "id" : "asDhrkA6ab4j0ROsXkpquE",
+    "name" : "mplt_Salutation_Assignment",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001S"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet generates a formal and casual greeting.   Mr John Smith will get a formal greeting of Dear Mr Smith, and the casual greeting will be Dear John,.  The prefix (Dear) and suffix (,) can be changed in dq_Generate_Salutation transform.\n\nTags:  Contact, Accuracy, Integrity/Conformity\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "16sWXXAFeO8fbBW6JiNIu3",
+    "name" : "mplt_Email_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001W"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet validates the email format.  It does not check if the email is an activated address.  \nReturns Valid or Invalid.\n\nTag : Accuracy,Conformity/Validity,Integrity/Conformity\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "6qeSJ52LoZocRe78GJPiyW",
+    "name" : "mplt_USA_Company_Name_Standardization",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001Y"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet standardizes a company name and provides its acronym if possible.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "8Q70Aht2425h4KpWKvttEC",
+    "name" : "mplt_USA_Phone_Number_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000017"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet validates the area code for US phone numbers.\nQuality scores are:  0 - NULL or blank input\n\t\t\t\t\t10 - Invalid length\n\t\t\t\t\t40 - Valid length, Invalid Area Code\n\t\t\t\t\t95\t- Valid length and Area Code\n\nTags: Accuracy, Conformity/Validity, Consistency",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "327xvJoxYuseH7NT81eA8j",
+    "name" : "mplt_USA_SSN_Standardization",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000004"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "The mapplet formats the input SSN.  Formats include without punctuation, with punctuation and with spaces.\nChange the variable port SSN_Format in the dq_SSN_Format transform as desired.  \nDefault output is without punctuation.\n\nTags: Tax, National Id, North America, SSN, Standardize, USA, Customer",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "aiAZg0gMPascsysops8ky4",
+    "name" : "mplt_Prename_Assignment",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000008"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet assigns a prename based on the gender.\nUse variable to change female prename assignment value.  Examples, Ms or Mrs.\n\nTags:  Contact, Accuracy, Integrity/Conformity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "5IMmPFQ42rckKraE9Otf6t",
+    "name" : "mplt_USA_Multi_Person_Name_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001C"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses input nameline into proper name components.\n\nTags: Customer, Standardize, Parse, USA, Name",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "1cwWvoE3VahhCtuRMu7kOV",
+    "name" : "c_US_MultiPort_ContactData",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1cwWvoE3VahhCtuRMu7kOV"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Converts all input ports to UPPER Case.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "6DSkPY76I7yhaeUe6Zu8I5",
+    "name" : "mplt_USA_Phone_Number_Standardization",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000006"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet standardizes the format of the phone string to have \nstandard - (nnn) nnn-nnnn\ndashes - nnn-nnn-nnnn\nno spaces - nnnnnnnnnn\nPhone_w_Extension  - (nnn) nnn-nnnn ext nnnnn\n\nTags: Standardize, USA, Customer, North America, Company, Phone",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "3m4zfV217gjlhsVdwRYa8I",
+    "name" : "mplt_USA_SSN_Validation_post_June2011",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000A"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule validates a Social security number for length, numeric values and known min/max values of the area, group and serial number sections.  It does not check if the SSN is an issued number and no longer validates the group and area number combination due to SSN Randomization effective June 25, 2011.  See Docket No. SSA 2007-0046 for more information.\n\nTags: Accuracy, Conformity/Validity, Restricted, PII, USA",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "5LBfvCOCYaDgFSMoNxIiM6",
+    "name" : "mplt_USA_Address_Validation_Hybrid",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000002A"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet validates US address data which is in hybrid format, meaning fields with combined street data and discrete fields for city, state and zip code.\n\nTags:  US, Address, Accuracy,Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "80D9uz41oGleHP7vIHvxMA",
+    "name" : "mplt_USA_Gender_Assingment",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000X"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet assigns the gender.  \nAn example, a name of John Smith will be assigned a gender of M for male.\n\nTags: Accuracy, US, Contact, Americas",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

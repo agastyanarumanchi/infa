@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "hJT62PF8ra3cxuqlFB87sF",
+    "name" : "v_aus_address_validation_hybrid",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hJT62PF8ra3cxuqlFB87sF"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verifies Australian address in Hybrid format, forcing the country to Australia",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.399Z",
+  "objectRefs" : [ ]
+}

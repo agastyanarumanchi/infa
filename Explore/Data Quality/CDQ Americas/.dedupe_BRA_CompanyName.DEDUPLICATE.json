@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1AsASONgwmpggag4V1cFe6",
+    "name" : "dedupe_BRA_CompanyName",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1AsASONgwmpggag4V1cFe6"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Organization name match based with Organization as index.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.483Z",
+  "objectRefs" : [ ]
+}

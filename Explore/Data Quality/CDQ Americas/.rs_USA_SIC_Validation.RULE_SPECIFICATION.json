@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "exNrhpHayacdZHZDN7e9i5",
+    "name" : "rs_USA_SIC_Validation",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "exNrhpHayacdZHZDN7e9i5"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates the US Standard Industrial Classification (SIC) code.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.204Z",
+  "objectRefs" : [ {
+    "id" : "dPdMSfMoze7kvL4G90yK4x",
+    "name" : "usa_sic_codes_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "dPdMSfMoze7kvL4G90yK4x"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This dictionary contains the Standard Industrial Classification (SIC) codes for USA.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

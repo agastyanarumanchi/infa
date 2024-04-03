@@ -1,0 +1,111 @@
+{
+  "objectInfo" : {
+    "id" : "5t2uzJxcyEYkantWgvDnS9",
+    "name" : "mplt_USA_Gender_Assingment",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000003O"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet assigns the gender.  \nAn example, a name of John Smith will be assigned a gender of M for male.\n\nTags: Accuracy, US, Contact, Americas",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.179Z",
+  "objectRefs" : [ {
+    "id" : "6g6aP1UMsiykklxevien65",
+    "name" : "p_usa_gender_assignemnt_FN",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6g6aP1UMsiykklxevien65"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns the gender based on the first name ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "7zTUBywFWYZlgOtPPcUBCM",
+    "name" : "mplt_Replace_Limited_Punct_with_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000003C"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet replaces certain punctuation with a single space, but not all.  Punctuation replaced includes:\n/, \\, ., !, _ and two, three and four consecutive spaces.\n\nTags: Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "7ViozdHQU0hbx7uYBHAfwS",
+    "name" : "p_usa_gender_assingment_MN",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7ViozdHQU0hbx7uYBHAfwS"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns Gender based on middle name",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "7hURkpt30wEiSLMb0im6W4",
+    "name" : "p_USA_gender_Assingment_Prename",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7hURkpt30wEiSLMb0im6W4"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns Gender based on prename",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

@@ -1,0 +1,88 @@
+{
+  "objectInfo" : {
+    "id" : "8G6d3NwMJ6wbw8VZ2h46aS",
+    "name" : "mplt_aus_phone_number_standardize",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007A"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet standardizes the format of an Australia phone number Country Code, Area Code and Landline number.to the formats listed below:\nstandard - +nn (nn) nnnnn\ndashes - +nn-nnnn-nnnn\nno spaces - +nnnnnnnnnn\n\nThis mapplet will parse a US phone number from string of text, validates the area code is valid for the US, and if it is valid,\nreturns the phone number in three different standard formats.  Also returns the status value (Valid / Invalid) and a\nstatus description.\n\nTags: Integrity, Conformity, Accuracy, Validity, Australia",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.697Z",
+  "objectRefs" : [ {
+    "id" : "5lw7kHOTMsVclN91o87haT",
+    "name" : "c_remove_symbols_chars",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5lw7kHOTMsVclN91o87haT"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Remove the symbols and letters",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "0Gtq9cb7doteCmlNjEt5g3",
+    "name" : "lbl_word_symbol",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0Gtq9cb7doteCmlNjEt5g3"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labeler identifying Unicode definition of a word combined with one or more symbols (e.g. email address)",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "gh6bUfKv3YqiGTBV8tvZsZ",
+    "name" : "p_aus_area_code",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "gh6bUfKv3YqiGTBV8tvZsZ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses an Australia area code.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

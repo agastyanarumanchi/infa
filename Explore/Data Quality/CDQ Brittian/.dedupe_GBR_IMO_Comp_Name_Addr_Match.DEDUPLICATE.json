@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "21ZbeEYZXKyk88ViIgjjeE",
+    "name" : "dedupe_GBR_IMO_Comp_Name_Addr_Match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "21ZbeEYZXKyk88ViIgjjeE"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Does an IMO match on company name and Address for GBR.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.039Z",
+  "objectRefs" : [ ]
+}

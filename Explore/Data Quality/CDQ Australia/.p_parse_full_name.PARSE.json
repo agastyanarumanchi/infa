@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1BCUZHkKAqKkTm971O9EQ6",
+    "name" : "p_parse_full_name",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1BCUZHkKAqKkTm971O9EQ6"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parse using the pre-built Australia multiname parsing",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.053Z",
+  "objectRefs" : [ ]
+}

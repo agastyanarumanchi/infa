@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "jrFh8JUkieOd7TSxAWLSK3",
+    "name" : "mplt_CAN_Postcode_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000004F"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet checks if input string is a valid Canadian postcode.\n\nTags: Address, Validate, Canada, Customer",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.353Z",
+  "objectRefs" : [ {
+    "id" : "9APGsqxNb2Nj2tmMREiceM",
+    "name" : "p_can_postcode_validation",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9APGsqxNb2Nj2tmMREiceM"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "this parser validates Canadian postcodes  ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "3WA8GPctmTzi9Sy9FzJESf",
+    "name" : "rs_can_postcode_validation",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3WA8GPctmTzi9Sy9FzJESf"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates Canadian Postcodes ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

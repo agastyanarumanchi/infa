@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "4VXneDaKNIXjGW9quqCeIK",
+    "name" : "mplt_GBR_Phone_Number_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000071"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This maplet parses a phone number that follows the standard format for the United Kingdom from a string of text into its own field. \nThe parsing string can recongize phone numbers with a leading zero or with the +44 international dialing code and phone extensions prefixed with hash(#). \nFor best results, remove multiple spaces and any punctuation other than plus(+),parenthesis () or hash (#).\n\nTags: Great Britian, Company, Customer, Europe, UK, Parse, Phone",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.060Z",
+  "objectRefs" : [ {
+    "id" : "7gmwiaPc5cWcI3fJR5mwWM",
+    "name" : "p_Parse_GBR_Phone",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7gmwiaPc5cWcI3fJR5mwWM"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses GBR phone number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

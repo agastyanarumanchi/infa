@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "jvTGjt6NoQOdUsKLyJMwIt",
+    "name" : "dedupe_aus_individual_name_match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "jvTGjt6NoQOdUsKLyJMwIt"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Australia individual name match.\nThreshold at 80%.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.523Z",
+  "objectRefs" : [ ]
+}

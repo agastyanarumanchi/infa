@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "0Gtq9cb7doteCmlNjEt5g3",
+    "name" : "lbl_word_symbol",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0Gtq9cb7doteCmlNjEt5g3"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labeler identifying Unicode definition of a word combined with one or more symbols (e.g. email address)",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.206Z",
+  "objectRefs" : [ ]
+}

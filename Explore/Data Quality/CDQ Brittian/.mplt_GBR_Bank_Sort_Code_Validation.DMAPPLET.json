@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "7S0Gw5P6MGycDSCEAU0jAm",
+    "name" : "mplt_GBR_Bank_Sort_Code_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000008F"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule validates the length and format of a bank sort code. Rule also checks to see if the sort code prefix matches to a known assignment for a UK bank and outputs the bank name linked to the sort code.\nIt is assumed that the sort code has been standardized to the 99-99-99 format.\n\nTags: UK, Finance, Europe, Great Britain, Validate",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.579Z",
+  "objectRefs" : [ {
+    "id" : "hYBl8VNFDW9hhdQYmYflK1",
+    "name" : "p_Parse_GBR_Match_Bank_Sort_Codes",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hYBl8VNFDW9hhdQYmYflK1"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches bank sort codes for GBR. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "52p5dD2tseBhm4WbzRZhyE",
+    "name" : "mplt_Remove_Punctuation_and_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007H"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all punctuation symbols and character spaces from an input field, and returns the remaining digits and letters.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

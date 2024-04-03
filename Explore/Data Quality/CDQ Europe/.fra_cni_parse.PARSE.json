@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "13ppF9GMl1YfpxGL4GRz28",
+    "name" : "fra_cni_parse",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "13ppF9GMl1YfpxGL4GRz28"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses France CNI number from input data.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.554Z",
+  "objectRefs" : [ ]
+}

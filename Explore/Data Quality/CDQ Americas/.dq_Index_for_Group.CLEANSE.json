@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "2KNQU6HgNQ1gSnhBtYeIms",
+    "name" : "dq_Index_for_Group",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2KNQU6HgNQ1gSnhBtYeIms"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Returns the index for the group.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.525Z",
+  "objectRefs" : [ {
+    "id" : "fwk4XIkfmywlmmEpb2FeYK",
+    "name" : "usa_ssn_indx_from_grp_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "fwk4XIkfmywlmmEpb2FeYK"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference tables gives the SSN index from group code.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

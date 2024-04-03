@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "l0ydorRWfYcjnmwxedeBmt",
+    "name" : "mplt_CAN_SIN_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000003"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Validates a Canadian Social Insurance Number (SIN).",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.436Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4wV4oCBq1FOg2yW6mvj4AJ",
+    "name" : "fra_phone_area_code_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4wV4oCBq1FOg2yW6mvj4AJ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Telephone codes for France.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.884Z",
+  "objectRefs" : [ ]
+}

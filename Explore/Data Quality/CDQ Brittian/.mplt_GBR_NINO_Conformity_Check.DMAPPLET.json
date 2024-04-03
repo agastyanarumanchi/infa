@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "jVh8MkBPo0ViDgYYvY0yO2",
+    "name" : "mplt_GBR_NINO_Conformity_Check",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007O"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Checks a field to see if it conforms to the standard pattern for a NINO. This rule does not Validate a NINO but does match the the basic pattern for a UK NINO.\n\nTags: GBR, Contact, Conformity/Integrity, Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.078Z",
+  "objectRefs" : [ {
+    "id" : "arSZrlrbHSgfLc1MlTDb2u",
+    "name" : "lbl_GBR_NINO",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "arSZrlrbHSgfLc1MlTDb2u"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "National ID GBR",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1C45rcPQ2eNiQFuuME9B8K",
+    "name" : "p_SN_metrics_to_ind_fields",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1C45rcPQ2eNiQFuuME9B8K"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parser parses metrics into fields.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.037Z",
+  "objectRefs" : [ ]
+}

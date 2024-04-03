@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "9wx4TWWCvNthbIwM837VoO",
+    "name" : "rs_company_name_uniqueness",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9wx4TWWCvNthbIwM837VoO"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "INVALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.518Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,94 @@
+{
+  "objectInfo" : {
+    "id" : "8AbepyliybhhTPFZfF5fKw",
+    "name" : "mplt_GBR_Postcode_Standardise",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000008B"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rules standardises a GBR postcode into the standard format depending on the postcode format. The following formats are supported: A9 9AA, A99 9AA, AA9 9AA, AA99 9AA, A9A 9AA, and AA9A 9AA. \nThe unique postcode format GIR 0AA is also supported.\nAny other patterns will not be standardised and will be output as is.\n\nTags : UK , Great Britain , GBR , Postcode , Standardisation \n\nTags:  UK, Address, Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.898Z",
+  "objectRefs" : [ {
+    "id" : "5fncYbkjjcdgOcix0HYLCU",
+    "name" : "mplt_Remove_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006R"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all occurrences of a character space from an input field.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "b7alKpJhQ0nhhjnvEqcIaC",
+    "name" : "mplt_Remove_Punctuation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007P"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all punctuation symbols from the input.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "kR5mSHHU9yEb0eFWmFH2OH",
+    "name" : "c_Replace_numbers_alpha_w_9X",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kR5mSHHU9yEb0eFWmFH2OH"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces all numbers with a '9' and alphabets with an 'X'",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

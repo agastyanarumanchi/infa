@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "l95vrZtDUibeDlFc49OYAM",
+    "name" : "av_GBR_AddressValidation_Hybrid",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "l95vrZtDUibeDlFc49OYAM"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Address Verification returns each level of sub-building information  in a hybrid output field.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.499Z",
+  "objectRefs" : [ ]
+}

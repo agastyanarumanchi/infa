@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "6mUI6mswo5xk14fKtVChqt",
+    "name" : "mplt_aus_bank_account_number_standardize",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007Q"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet formats a 7 to 13 digit Australia bank account number, regardless of spacing or punctuation. \n\nInputs not equal 13 and less than 7 digits will be returned as is.\n\nValid formats returned are nnnnnnn, nnnnnnnnnnnnn.\n\nTags: Australia, AUS, Financial",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.185Z",
+  "objectRefs" : [ {
+    "id" : "5lw7kHOTMsVclN91o87haT",
+    "name" : "c_remove_symbols_chars",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5lw7kHOTMsVclN91o87haT"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Remove the symbols and letters",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "lHi9zMSvXoFfdoirXPG48v",
+    "name" : "p_aus_health_id",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "lHi9zMSvXoFfdoirXPG48v"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a 16 digit IHI number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.077Z",
+  "objectRefs" : [ ]
+}

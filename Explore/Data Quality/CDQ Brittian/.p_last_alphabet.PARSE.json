@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "3X7kAZfk9QFhrcmEwx7vEL",
+    "name" : "p_last_alphabet",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3X7kAZfk9QFhrcmEwx7vEL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Extracts the last alphabet from a  string. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.173Z",
+  "objectRefs" : [ ]
+}

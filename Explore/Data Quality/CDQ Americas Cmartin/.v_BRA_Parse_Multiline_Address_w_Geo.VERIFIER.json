@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7Bb4zH2CaSol6fGSdKJGsI",
+    "name" : "v_BRA_Parse_Multiline_Address_w_Geo",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7Bb4zH2CaSol6fGSdKJGsI"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verifies Brazilian address in multiline format with geocode.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.036Z",
+  "objectRefs" : [ ]
+}

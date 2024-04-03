@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "gh6bUfKv3YqiGTBV8tvZsZ",
+    "name" : "p_aus_area_code",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "gh6bUfKv3YqiGTBV8tvZsZ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses an Australia area code.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.316Z",
+  "objectRefs" : [ ]
+}

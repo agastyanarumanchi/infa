@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "469Cv4q39kEi1QJZeOPqOM",
+    "name" : "dq_av_geocodingstatus_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "469Cv4q39kEi1QJZeOPqOM"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Address Validation status with geocoding.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.478Z",
+  "objectRefs" : [ ]
+}

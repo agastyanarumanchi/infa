@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "7ivrrIbENUXbQY3X5rRuUG",
+    "name" : "mplt_USA_ZIPCode_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001V"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet validates the input string is a 5 digit US Zipcode.\n\nTags: Accuracy,Conformity/Validity, US, Americas",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.316Z",
+  "objectRefs" : [ {
+    "id" : "8c37yzfwGGsl6WNxuEwamQ",
+    "name" : "c_USA_PostCodes",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8c37yzfwGGsl6WNxuEwamQ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates if the input has a valid postal code using reference table",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "87Ny6pL88sQfQO6dGUWzyg",
+    "name" : "mplt_BRA_Salutation_Assignment",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000034"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet generates a formal and casual greeting.  \nSr John Smith will get a formal greeting of Prezado Sr Smith,\nand the casual greeting will be Prezado John,.  The prefix (Prezado) and suffix (,) \ncan be changed in dq_Generate_Salutation transform.\n\nTags: Name, Enrich, Brazil, Customer",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.696Z",
+  "objectRefs" : [ {
+    "id" : "5YJVHfS6EljibOlE6AZzgK",
+    "name" : "c_replace_ltd_punct_w_space",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5YJVHfS6EljibOlE6AZzgK"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces limited punctuation with space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

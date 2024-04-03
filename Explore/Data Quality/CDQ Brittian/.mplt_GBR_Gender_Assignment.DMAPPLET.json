@@ -1,0 +1,111 @@
+{
+  "objectInfo" : {
+    "id" : "1VHy6xR2NJAhNgJ1ahvhkT",
+    "name" : "mplt_GBR_Gender_Assignment",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000008J"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet assigns the gender.  \nAn example, a name of John Smith will be assigned a gender of M for male.\n\nTags: GBR, Contact, Accuracy, Integrity/Conformity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.547Z",
+  "objectRefs" : [ {
+    "id" : "4EgKes5wk30c8Gha7883gx",
+    "name" : "p_Assign_Midname_Gender",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4EgKes5wk30c8Gha7883gx"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Uses reference table to assign a gender.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "7o0eeKoXpcAiDKdQtlsxaC",
+    "name" : "p_Assign_Prename_Gender",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7o0eeKoXpcAiDKdQtlsxaC"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Uses reference table to assign a gender for the prename.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "1vl2KmOzQaBi2kxu8QxWOL",
+    "name" : "p_Assign_Firstname_Gender",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1vl2KmOzQaBi2kxu8QxWOL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Uses reference table to assign a gender for the first name.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "3mB1hXWdZmMkv4YxbBrUWC",
+    "name" : "mplt_Replace_Limited_Punct_with_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000080"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Replaces punctuation symbols including a forward slash, backslash, exclamation point, period, or underscore character with a character space. Also replaces instances of two, three, or four consecutive character spaces with a single space.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

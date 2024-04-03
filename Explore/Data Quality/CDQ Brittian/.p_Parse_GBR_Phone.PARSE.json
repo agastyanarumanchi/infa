@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7gmwiaPc5cWcI3fJR5mwWM",
+    "name" : "p_Parse_GBR_Phone",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7gmwiaPc5cWcI3fJR5mwWM"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses GBR phone number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.377Z",
+  "objectRefs" : [ ]
+}

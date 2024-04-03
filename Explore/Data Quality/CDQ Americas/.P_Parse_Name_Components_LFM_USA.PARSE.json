@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "aL4p23GvtU6hOkannZcH2P",
+    "name" : "P_Parse_Name_Components_LFM_USA",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "aL4p23GvtU6hOkannZcH2P"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses input into Last Name, Middle Name, First Name for USA.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.489Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "22diVcW5BBObgWwDKOi0C9",
+    "name" : "mplt_BRA_Address_Validation_Multiline",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000H"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses Brazilian address data into proper components. \n\nTags: Brazil, Address, Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.485Z",
+  "objectRefs" : [ {
+    "id" : "hnvaRPo4kuSihoVOP0RvQJ",
+    "name" : "v_BRA_AddressValidation_Multiline",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hnvaRPo4kuSihoVOP0RvQJ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verifies the address in multiline format including country, formatted address lines and status codes.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "4EgKes5wk30c8Gha7883gx",
+    "name" : "p_Assign_Midname_Gender",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4EgKes5wk30c8Gha7883gx"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Uses reference table to assign a gender.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.826Z",
+  "objectRefs" : [ {
+    "id" : "kzux8Tzrd0kcuDezYiaQCk",
+    "name" : "gbr_gender_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kzux8Tzrd0kcuDezYiaQCk"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This dictionary contains list of names and corresponding gender for GBR ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

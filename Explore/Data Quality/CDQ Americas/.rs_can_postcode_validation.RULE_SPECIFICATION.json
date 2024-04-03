@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "6wkIvLFIimebWyMc88or6I",
+    "name" : "rs_can_postcode_validation",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6wkIvLFIimebWyMc88or6I"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates Canadian Postcodes ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.318Z",
+  "objectRefs" : [ ]
+}

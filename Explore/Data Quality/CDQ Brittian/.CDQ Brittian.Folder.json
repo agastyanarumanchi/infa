@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "ccfTPMJta2PbH5rqJNKz8V",
+    "name" : "CDQ Brittian",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.689Z",
+  "objectRefs" : [ ]
+}

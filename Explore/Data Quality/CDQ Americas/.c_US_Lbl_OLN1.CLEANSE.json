@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "hwLBLpdJT2xctLFjpMWKAQ",
+    "name" : "c_US_Lbl_OLN1",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hwLBLpdJT2xctLFjpMWKAQ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "labels US surname.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.513Z",
+  "objectRefs" : [ {
+    "id" : "9zGP3uZlpYLdQQCOfPS1iQ",
+    "name" : "usa_surnames_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9zGP3uZlpYLdQQCOfPS1iQ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table contains list of surnames in US.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

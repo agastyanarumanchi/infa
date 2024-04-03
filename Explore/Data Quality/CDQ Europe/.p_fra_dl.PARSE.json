@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "2OEIVW3Of8Fgiyt1fXDIGA",
+    "name" : "p_fra_dl",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2OEIVW3Of8Fgiyt1fXDIGA"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses France drivers license number from a string of text.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.500Z",
+  "objectRefs" : [ ]
+}

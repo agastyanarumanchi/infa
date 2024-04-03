@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "6E7b5xBn36YjJCzEcvXfGs",
+    "name" : "p_nzl_phone_parse",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6E7b5xBn36YjJCzEcvXfGs"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses an NZL phone number from a string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.839Z",
+  "objectRefs" : [ ]
+}

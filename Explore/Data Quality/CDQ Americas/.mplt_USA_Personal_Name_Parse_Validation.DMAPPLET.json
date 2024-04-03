@@ -1,0 +1,108 @@
+{
+  "objectInfo" : {
+    "id" : "h5UH6MjQF2AbeddKJ6q96h",
+    "name" : "mplt_USA_Personal_Name_Parse_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001J"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "If the gender is known for a given name then then the gender specific score will be used to determine the status. Acceptable input for male and female genders is M and F. If the gender is unknown, the the highest of the male or female scores will be used to determine the status.\nThe rule will also calculate the probable gender based on the first name input and provide a confidence score based on the frequency a name occurs as male or female.\nGenders are only assigned a score if the probability of the gender being male or female is 70% or more. Unknown genders will always have a confidence score of zero.\n\nTags: Accuracy, Conformity/Validity, Integrity/Conformity, USA",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.204Z",
+  "objectRefs" : [ {
+    "id" : "8aeOcKiHfIDglzE1A3kuGH",
+    "name" : "p_FN_metrics_to_ind_fields",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8aeOcKiHfIDglzE1A3kuGH"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parser parses metrics into fields.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "8svFP4PPSGofQOTrmveg2G",
+    "name" : "p_USA_Assign_metric_to_matched_values",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8svFP4PPSGofQOTrmveg2G"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The parser assigns a metric based on the  reference table USA_Name_Frequencies.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "4wVRNkNobIJjNgdv1EIagu",
+    "name" : "c_replace_pipe_w_space",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4wVRNkNobIJjNgdv1EIagu"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces a pipe with a single space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "1C45rcPQ2eNiQFuuME9B8K",
+    "name" : "p_SN_metrics_to_ind_fields",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1C45rcPQ2eNiQFuuME9B8K"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parser parses metrics into fields.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

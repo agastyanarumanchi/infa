@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "9VeizxVIJwwdh4iw2eKaKe",
+    "name" : "bra_business_words_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9VeizxVIJwwdh4iw2eKaKe"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This dictionary contains information about business words in Brazil.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.516Z",
+  "objectRefs" : [ ]
+}

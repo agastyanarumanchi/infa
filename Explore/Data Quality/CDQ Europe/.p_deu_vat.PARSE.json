@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "656HijJZ6cCfJOSCvzyQEL",
+    "name" : "p_deu_vat",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "656HijJZ6cCfJOSCvzyQEL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a German VAT number from a longer string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.185Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "huPTpnn2pSchgO2dWtFbS1",
+    "name" : "p_AV_MailabilityScores_infa",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "huPTpnn2pSchgO2dWtFbS1"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a Mailability score listed in  the reference table DQ_AV_MailabilityScores_infa\n",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.890Z",
+  "objectRefs" : [ {
+    "id" : "duHzHI6HguFk26W8yXunMu",
+    "name" : "dq_av_mailabilityscores_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "duHzHI6HguFk26W8yXunMu"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table has 'AddressDoctor' status values that indicates the likelihood of delivery to an address on a 0 through 5 scale.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

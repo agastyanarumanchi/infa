@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "3KfVDufA78Kcs7Bzm7fkeF",
+    "name" : "p_BRA_parse_NameDesignator",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3KfVDufA78Kcs7Bzm7fkeF"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses name designator for Brazil.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.517Z",
+  "objectRefs" : [ {
+    "id" : "1z4SlYUbFIHhKOudysX2S3",
+    "name" : "bra_name_designators_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1z4SlYUbFIHhKOudysX2S3"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This dictionary contains the Brazilian name designators.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

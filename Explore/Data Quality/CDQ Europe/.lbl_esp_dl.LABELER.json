@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "91jZv1PnnPWc72sCK09T8d",
+    "name" : "lbl_esp_dl",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "91jZv1PnnPWc72sCK09T8d"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates a driving license number for Spain.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.508Z",
+  "objectRefs" : [ ]
+}

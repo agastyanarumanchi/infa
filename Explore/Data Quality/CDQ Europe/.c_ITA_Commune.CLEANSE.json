@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "2DsGeYUj3gTjW6It09NG4Y",
+    "name" : "c_ITA_Commune",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2DsGeYUj3gTjW6It09NG4Y"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates if a given input is a valid Italy commune.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.479Z",
+  "objectRefs" : [ {
+    "id" : "79tUB1Ds32FeyYfcLmIVEc",
+    "name" : "ita_commune",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "79tUB1Ds32FeyYfcLmIVEc"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "List of comuni or municipalities for Italy.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  } ]
+}

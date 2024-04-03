@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "hYBl8VNFDW9hhdQYmYflK1",
+    "name" : "p_Parse_GBR_Match_Bank_Sort_Codes",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hYBl8VNFDW9hhdQYmYflK1"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches bank sort codes for GBR. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.500Z",
+  "objectRefs" : [ {
+    "id" : "fDe76Fnq44HkQwHxMgP0EA",
+    "name" : "gbr_bank_sort_codes_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "fDe76Fnq44HkQwHxMgP0EA"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The dictionary contains bank codes for GBR ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

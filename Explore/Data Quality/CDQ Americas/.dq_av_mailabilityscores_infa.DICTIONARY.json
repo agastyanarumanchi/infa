@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4ELFyABqiUiil3G7FwRaSH",
+    "name" : "dq_av_mailabilityscores_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4ELFyABqiUiil3G7FwRaSH"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table has 'AddressDoctor' status values that indicates the likelihood of delivery to an address on a 0 through 5 scale.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.483Z",
+  "objectRefs" : [ ]
+}

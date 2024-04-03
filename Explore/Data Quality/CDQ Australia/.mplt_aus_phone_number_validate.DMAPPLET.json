@@ -1,0 +1,91 @@
+{
+  "objectInfo" : {
+    "id" : "6HMCE9Qm6oHkZcwXer9XCb",
+    "name" : "mplt_aus_phone_number_validate",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000009O"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Validates an Australian phone number by matching the are a code with a list of known area codes for Australian and checks the number length\n\nTags: Australia, Validity, Accuracy, Integrity, PII",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.183Z",
+  "objectRefs" : [ {
+    "id" : "3Z0IpnxmsFZchisDq2Tek8",
+    "name" : "mplt_Remove_Punctuation_and_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000072"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all punctuation symbols and character spaces from an input field, and returns the remaining digits and letters.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "14OqbQcWEOygmyveZ34YYj",
+    "name" : "c_aus_remove_intl_dialing_prefix",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "14OqbQcWEOygmyveZ34YYj"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Remove variations of the Australian international dialing code from the start of the input string e.g. +61, 0061, 61",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "iAhHB4PYjmKjmYBwu2HAK0",
+    "name" : "c_aus_areacode_region",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "iAhHB4PYjmKjmYBwu2HAK0"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Check the input data against a list of Australian telephone prefix number from Australian Government Federal Register of Legislation and return VALID if there is a match",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

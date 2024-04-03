@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "9k3iWS3fAp6hgbTD1UNNIE",
+    "name" : "dedupe_BRA_Familyname_and_Address_Match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9k3iWS3fAp6hgbTD1UNNIE"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Brazil household name and address match with Addss Part1 as key.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.442Z",
+  "objectRefs" : [ ]
+}

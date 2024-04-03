@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "1iMPLmtB6JFlfl6sMCRcYr",
+    "name" : "mplt_DEU_Tax_File_Number_Standardize",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000053"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule standardizes Germany Tax file Number.\n\nTags: Germany, Completeness, Tax",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.557Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1RdDf2Cr0EJlfJEd0vZTQj",
+    "name" : "bra_names_mispelled_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1RdDf2Cr0EJlfJEd0vZTQj"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This dictionary contains the list if misspelled Brazilian names.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.035Z",
+  "objectRefs" : [ ]
+}

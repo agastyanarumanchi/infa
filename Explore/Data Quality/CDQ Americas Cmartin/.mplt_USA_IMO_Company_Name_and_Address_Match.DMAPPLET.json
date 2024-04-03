@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "bO5mU77em6Wb1msLFzkVUK",
+    "name" : "mplt_USA_IMO_Company_Name_and_Address_Match",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000038"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet finds duplicate rows of Company name and US address data.\n\nTags: Company, North America, Matching, Address, USA",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.599Z",
+  "objectRefs" : [ {
+    "id" : "iNxAvACB1SOhCdzt7lUf4R",
+    "name" : "dedupe_US_IMO_Match_Company_and_Address",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "iNxAvACB1SOhCdzt7lUf4R"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches US company name and address.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

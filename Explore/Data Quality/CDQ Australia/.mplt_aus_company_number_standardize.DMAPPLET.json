@@ -1,0 +1,51 @@
+{
+  "objectInfo" : {
+    "id" : "4vy5130DXCjf4P7lHKuCKx",
+    "name" : "mplt_aus_company_number_standardize",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000008D"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Standardize the format of an input Australian Company Number (ACN), which is a unique nine-digit identifier assigned by the Australian Securities and Investments Commission (ASIC)\n\nTags: Australia, Completeness",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.190Z",
+  "objectRefs" : [ {
+    "id" : "48N82cW0N1DbS5t6sY7kEV",
+    "name" : "mplt_Replace_Limited_Punct_with_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006V"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Replaces punctuation symbols including a forward slash, backslash, exclamation point, period, or underscore character with a character space. Also replaces instances of two, three, or four consecutive character spaces with a single space.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

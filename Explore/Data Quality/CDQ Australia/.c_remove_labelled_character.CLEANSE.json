@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "5qHvfCiqQRGiawnI5EIQMb",
+    "name" : "c_remove_labelled_character",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5qHvfCiqQRGiawnI5EIQMb"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replace an X, _ and S with @.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.078Z",
+  "objectRefs" : [ ]
+}

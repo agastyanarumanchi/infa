@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "cfyl1XqoFqWkHfxELeLJk7",
+    "name" : "mplt_nzl_bank_account_number_standardize",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006O"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Formats New Zealand bank account number. Domestic account numbers, include the two digit bank number,  four digit branch number, seven digit account and three/two digit suffix, shown in this format: NN-NNNN-NNNNNNN-NNN or NN-NNNN-NNNNNNN-NN\n\nTags: Finance, New Zealand, Completeness",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.312Z",
+  "objectRefs" : [ ]
+}

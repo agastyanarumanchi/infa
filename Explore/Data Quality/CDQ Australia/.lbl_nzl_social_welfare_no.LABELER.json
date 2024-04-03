@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "51rJvxxhCW0aZEVFrL65GH",
+    "name" : "lbl_nzl_social_welfare_no",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "51rJvxxhCW0aZEVFrL65GH"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labels a New Zealand Social Welfare Number using a regex. \nNo checksum validation as info on checksum not available.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.498Z",
+  "objectRefs" : [ ]
+}

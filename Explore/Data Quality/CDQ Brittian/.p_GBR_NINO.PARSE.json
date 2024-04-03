@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "0fLha39i0IAiB7oZKUWqK7",
+    "name" : "p_GBR_NINO",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0fLha39i0IAiB7oZKUWqK7"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Regex to parse UK NINO.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.181Z",
+  "objectRefs" : [ ]
+}

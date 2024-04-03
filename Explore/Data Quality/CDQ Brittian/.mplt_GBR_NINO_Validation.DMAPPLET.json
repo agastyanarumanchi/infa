@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "97bRhDM1m71d8woWws31oH",
+    "name" : "mplt_GBR_NINO_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007L"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Checks that the NINO conforms to the standards for a National Insurance number. \nThe rule assume that the NINO conforms to the standard format for a NINO and has been standardized to the CC NN NN NN C format.\n\nTags: GBR, Contact, Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.480Z",
+  "objectRefs" : [ {
+    "id" : "2dDCh5ZYpu3hTLonlx4F2v",
+    "name" : "p_Word",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2dDCh5ZYpu3hTLonlx4F2v"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches Unicode definition of a word (text containing only letters).",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "3X7kAZfk9QFhrcmEwx7vEL",
+    "name" : "p_last_alphabet",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3X7kAZfk9QFhrcmEwx7vEL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Extracts the last alphabet from a  string. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "eswzmPExnWlfoda6lyfhG0",
+    "name" : "v_USA_Validation_Discrete_Address_w_Geo",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "eswzmPExnWlfoda6lyfhG0"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verifies the US address in discrete format with geocode.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.526Z",
+  "objectRefs" : [ ]
+}

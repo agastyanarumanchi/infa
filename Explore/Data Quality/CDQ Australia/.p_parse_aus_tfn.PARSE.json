@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "3WdS7d5dXmSh3UD4e0dhmB",
+    "name" : "p_parse_aus_tfn",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3WdS7d5dXmSh3UD4e0dhmB"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parse and Australian tax file number (TFN)",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.692Z",
+  "objectRefs" : [ ]
+}

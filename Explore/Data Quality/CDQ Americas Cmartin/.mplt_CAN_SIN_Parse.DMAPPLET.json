@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "89g2nYB8l2xgn8UMtNzWWV",
+    "name" : "mplt_CAN_SIN_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000003B"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses a Canadian Social Insurance Number (SIN) from a string of text.\n\nTags: North America, Canada, Tax, Customer, National Id, Parse",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.037Z",
+  "objectRefs" : [ {
+    "id" : "aj8pLdSaJQShARywUjCe4n",
+    "name" : "p_parse_CAN_SIN",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "aj8pLdSaJQShARywUjCe4n"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses Canadian SIN Number ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

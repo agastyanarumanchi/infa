@@ -1,0 +1,108 @@
+{
+  "objectInfo" : {
+    "id" : "5wYOmPcJmHHgaa24mJvQYG",
+    "name" : "mplt_USA_SSN_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000004G"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet checks the Area (first 3 numbers) and Group (middle 2 numbers) are a valid combination and other checks for all 0s.  It does not check if the SSN is an issued number.  Rule accurately validates SSNs issued prior to June 25, 2011due to SSN Randomization.  See Docket No. SSA 2007-0046 for more information.\n\nTags: SSN, Tax, USA, Validate, North America, Customer, National Id, Profile",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.571Z",
+  "objectRefs" : [ {
+    "id" : "7k0B8roAX2ug3ka7pI0d0r",
+    "name" : "c_SSN_Max_Index_For_Group",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7k0B8roAX2ug3ka7pI0d0r"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Returns  index for a group.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "jvAxmPOpOcXcbvjR0W9ZWO",
+    "name" : "c_Label_Characters",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "jvAxmPOpOcXcbvjR0W9ZWO"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns a Label  \"X\" t o a character.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "3NjxSn5zacocLFgyFvpiIV",
+    "name" : "c_SSN_Group_From_Area",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3NjxSn5zacocLFgyFvpiIV"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Returns the group from the area code.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "6vGMyoq4EaHl7WJe7bfPeZ",
+    "name" : "dq_Index_for_Group",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6vGMyoq4EaHl7WJe7bfPeZ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Returns the index for the group.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

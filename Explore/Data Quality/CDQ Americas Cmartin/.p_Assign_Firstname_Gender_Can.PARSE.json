@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "06J1NYTtZuYbDUnoqu6ZGR",
+    "name" : "p_Assign_Firstname_Gender_Can",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "06J1NYTtZuYbDUnoqu6ZGR"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns gender on the basis of Firstname for Canada ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.036Z",
+  "objectRefs" : [ {
+    "id" : "cqRuvFfj1WZiWqmtyvoD2Y",
+    "name" : "can_gender_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "cqRuvFfj1WZiWqmtyvoD2Y"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "this reference table contains list of  genders on the basis of  name  for Canada ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

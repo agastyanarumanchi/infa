@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4D2SxSN7wIvkUXoNbE5PCD",
+    "name" : "p_aus_int_country_code",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4D2SxSN7wIvkUXoNbE5PCD"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses an Australia international dialing country code.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.522Z",
+  "objectRefs" : [ ]
+}

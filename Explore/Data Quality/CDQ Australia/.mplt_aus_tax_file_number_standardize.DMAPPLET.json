@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "4kFhOguv1gShPyX3GHNmWi",
+    "name" : "mplt_aus_tax_file_number_standardize",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006P"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Formats Australian Tax File Number (TFN) as indicated by the variable value in the expression. Valid formats are No_Punctuation, Space or Dash for nnnnnnnnn, nnn nnn nnn or nnn-nnn-nnn respectively.\n\nTags: Australia, Conformity, Tax, Completeness",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.176Z",
+  "objectRefs" : [ ]
+}

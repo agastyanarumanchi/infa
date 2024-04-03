@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "7QK45MvdlgVkqqxWVwXDOc",
+    "name" : "mplt_AV6_Assign_DQ_Status_Code_Description",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000008Q"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Describes the Match Score value that a verifier asset returns for the AV6 engine.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.834Z",
+  "objectRefs" : [ {
+    "id" : "6ijub1U9sCTlBVbquLCAeZ",
+    "name" : "c_AV6_Assign_DQ_Status_Code_Description",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6ijub1U9sCTlBVbquLCAeZ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The cleanse asset returns the text description of a Status Code value that a verifier asset generates.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

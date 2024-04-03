@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "272JQFvWgYdhyKfKZQr4QG",
+    "name" : "mplt_CAN_Phone_Number_Standardization",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000Q"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet standardizes the format of the phone string to have \nPhone_w_Extenstion - (nnn) nnn-nnnn ext nnnnnnnnnnn\nstandard - (nnn) nnn-nnnn\ndashes - nnn-nnn-nnnn\nno spaces - nnnnnnnnnn\n\nTags: Standardize, Company, North America, Customer, Phone, Canada",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.321Z",
+  "objectRefs" : [ {
+    "id" : "fGeGueTHPUFfSs4FFFMAwM",
+    "name" : "dq_Label_Noise",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "fGeGueTHPUFfSs4FFFMAwM"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes characters in a phone number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

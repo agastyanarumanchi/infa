@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "fBqw9etwukIj81JAuMTn8F",
+    "name" : "av_GBR_Hybrid_w_Gecoding",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "fBqw9etwukIj81JAuMTn8F"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Address Verification returns each level of sub-building information  in a hybrid output field with geo-coding",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.523Z",
+  "objectRefs" : [ ]
+}

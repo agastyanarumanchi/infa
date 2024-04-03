@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "2rmhQOfqWuSke3gwalli21",
+    "name" : "c_remove_ltd_punct_with_space",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2rmhQOfqWuSke3gwalli21"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes limited punctuation and replaces it with a space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.837Z",
+  "objectRefs" : [ ]
+}

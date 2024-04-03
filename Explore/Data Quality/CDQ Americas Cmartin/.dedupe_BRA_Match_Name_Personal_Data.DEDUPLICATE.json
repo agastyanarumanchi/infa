@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "aMV1cmVSG2Xc6Zb9wxXtW2",
+    "name" : "dedupe_BRA_Match_Name_Personal_Data",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "aMV1cmVSG2Xc6Zb9wxXtW2"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches Brazil personal name and data. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.042Z",
+  "objectRefs" : [ ]
+}

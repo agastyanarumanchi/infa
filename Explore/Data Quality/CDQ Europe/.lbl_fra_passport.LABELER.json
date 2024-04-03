@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "8GS8q7xjy4TltEfGWSHuC2",
+    "name" : "lbl_fra_passport",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8GS8q7xjy4TltEfGWSHuC2"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labels France Passport numbers as Valid",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.397Z",
+  "objectRefs" : [ ]
+}

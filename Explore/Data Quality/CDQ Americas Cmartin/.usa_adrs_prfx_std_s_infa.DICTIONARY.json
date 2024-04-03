@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "0z4wcv0yhTDcNc0emmMOuO",
+    "name" : "usa_adrs_prfx_std_s_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0z4wcv0yhTDcNc0emmMOuO"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table contains prefix for address name std in US.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.394Z",
+  "objectRefs" : [ ]
+}

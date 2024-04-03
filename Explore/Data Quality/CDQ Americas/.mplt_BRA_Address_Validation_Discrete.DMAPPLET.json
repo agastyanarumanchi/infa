@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "6bHXLq9DmGceLaxBw7W5my",
+    "name" : "mplt_BRA_Address_Validation_Discrete",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000F"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet validates Brazilian address data which is in discrete format, meaning already parsed into proper fields.\n\nTags: Brazil, Address, Accuracy,Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.689Z",
+  "objectRefs" : [ {
+    "id" : "2gUwb91XqiufxqwxSI1uqW",
+    "name" : "v_BRA_Validation_Discrete_Address",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2gUwb91XqiufxqwxSI1uqW"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verifies Brazilian address in Discrete format.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

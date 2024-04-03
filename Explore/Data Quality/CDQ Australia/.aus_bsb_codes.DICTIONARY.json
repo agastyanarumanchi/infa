@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "2ZG1KUUVHlngn5erqyF0oC",
+    "name" : "aus_bsb_codes",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2ZG1KUUVHlngn5erqyF0oC"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "List of Australia bank branch codes - available from https://bsb.auspaynet.com.au/ [1 Jun 2023]",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.192Z",
+  "objectRefs" : [ ]
+}

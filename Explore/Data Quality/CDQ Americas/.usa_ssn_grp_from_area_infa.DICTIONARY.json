@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "jph34Wwk3i6ldOL09NS782",
+    "name" : "usa_ssn_grp_from_area_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "jph34Wwk3i6ldOL09NS782"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table contains SSN group from an area .",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.166Z",
+  "objectRefs" : [ ]
+}

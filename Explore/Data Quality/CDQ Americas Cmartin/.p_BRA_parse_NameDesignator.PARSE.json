@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "hEmBEIsNgknjpsPDvL9iS2",
+    "name" : "p_BRA_parse_NameDesignator",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hEmBEIsNgknjpsPDvL9iS2"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses name designator for Brazil.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.503Z",
+  "objectRefs" : [ {
+    "id" : "aDEvfG4tSoVcEIvnBew6us",
+    "name" : "bra_name_designators_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "aDEvfG4tSoVcEIvnBew6us"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This dictionary contains the Brazilian name designators.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

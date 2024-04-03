@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "aPMlgdn9Nomf7WpZErgCUF",
+    "name" : "lbl_deu_dl",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "aPMlgdn9Nomf7WpZErgCUF"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates a Germany driving license.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.488Z",
+  "objectRefs" : [ ]
+}

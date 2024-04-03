@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "kyI43jAj1yUiFq6seBOT44",
+    "name" : "p_parse_DEU_tfn",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kyI43jAj1yUiFq6seBOT44"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses Germany TFN number from input data.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.055Z",
+  "objectRefs" : [ ]
+}

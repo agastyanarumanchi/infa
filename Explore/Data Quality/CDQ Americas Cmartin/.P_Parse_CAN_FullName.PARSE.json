@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "78f39sFiskDdhkUz3OYKEi",
+    "name" : "P_Parse_CAN_FullName",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "78f39sFiskDdhkUz3OYKEi"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The parser parsers the full name ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.390Z",
+  "objectRefs" : [ ]
+}

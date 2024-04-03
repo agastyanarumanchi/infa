@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "1IZ11ersbWLefVYpWysBQy",
+    "name" : "mplt_USA_SSN_Standardization",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000002Q"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "The mapplet formats the input SSN.  Formats include without punctuation, with punctuation and with spaces.\nChange the variable port SSN_Format in the dq_SSN_Format transform as desired.  \nDefault output is without punctuation.\n\nTags: Tax, National Id, North America, SSN, Standardize, USA, Customer",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.036Z",
+  "objectRefs" : [ ]
+}

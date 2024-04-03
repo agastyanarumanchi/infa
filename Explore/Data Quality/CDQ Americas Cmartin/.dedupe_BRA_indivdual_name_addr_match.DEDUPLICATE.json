@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "2FpkO2bywcnk6Lz3KxzhkV",
+    "name" : "dedupe_BRA_indivdual_name_addr_match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2FpkO2bywcnk6Lz3KxzhkV"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Brazil Individual Name and Address match.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.858Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "2tK0Rhe3TUcgo5Dojzd2se",
+    "name" : "mplt_GBR_Passport_Number_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000082"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rules parses a UK passport number according the toe Government Data Standards Cataogue definition. \nUK passport number are a 9 digit string of numbers and as a result, this rule will parse any 9 digit string it encounters.\n\nTags: UK, Great Britain, Customer, Europe, National Id, Parse",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.378Z",
+  "objectRefs" : [ {
+    "id" : "64FXXN8UlGehzvvLaa0tov",
+    "name" : "p_Parse_GBR_Passport_Number",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "64FXXN8UlGehzvvLaa0tov"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses passport number for Great Britain.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

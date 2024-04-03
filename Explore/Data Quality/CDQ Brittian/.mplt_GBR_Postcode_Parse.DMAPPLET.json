@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "1DFKu76mwa6cqymP5k1oUd",
+    "name" : "mplt_GBR_Postcode_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006W"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses a UK postcode from a string of text.\n\nTags: UK, Address, Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.487Z",
+  "objectRefs" : [ {
+    "id" : "js6RiyCMHYfizePCAfM1wY",
+    "name" : "p_GBR_Postcode",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "js6RiyCMHYfizePCAfM1wY"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Regex for GBR postcodes.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "iAhHB4PYjmKjmYBwu2HAK0",
+    "name" : "c_aus_areacode_region",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "iAhHB4PYjmKjmYBwu2HAK0"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Check the input data against a list of Australian telephone prefix number from Australian Government Federal Register of Legislation and return VALID if there is a match",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.479Z",
+  "objectRefs" : [ {
+    "id" : "06lG6fE5X93l3sSqNv7cSO",
+    "name" : "aus_telephone_prefix",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "06lG6fE5X93l3sSqNv7cSO"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "A list of Australian telephone prefix number from Australian Government Federal Register of Legislation website\nhttps://www.legislation.gov.au/Details/F2023C00366 ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

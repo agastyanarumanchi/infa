@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "4MND6ZAnGctkwc28WqYxcT",
+    "name" : "mplt_GBR_Passport_Number_MR_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006Q"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Parses a UK passport number in its extended format. This parse definition corresponds to the machine readable format for passport numbers.\n\nTags: UK, National Id, Europe, Customer, Great Britain, Parse",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.362Z",
+  "objectRefs" : [ {
+    "id" : "3UoDV0TcOExeABiL2a2kqm",
+    "name" : "p_Parse_GBR_Passport_Number_MR",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3UoDV0TcOExeABiL2a2kqm"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses the MR passport number for Great Britain.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

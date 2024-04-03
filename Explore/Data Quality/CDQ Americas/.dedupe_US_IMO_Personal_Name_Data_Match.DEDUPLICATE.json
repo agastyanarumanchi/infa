@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "fDs8nlkPOYglw3fMZOidEI",
+    "name" : "dedupe_US_IMO_Personal_Name_Data_Match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "fDs8nlkPOYglw3fMZOidEI"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Identity match of personal name and data.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.831Z",
+  "objectRefs" : [ ]
+}

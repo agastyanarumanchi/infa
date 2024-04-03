@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "0HgiJP3xj2chaDj7TNWHWu",
+    "name" : "rs_validate_area_code",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0HgiJP3xj2chaDj7TNWHWu"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Null check for area code.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.636Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "0WqnpbXbT5qj5W4rbgeNGi",
+    "name" : "p_parse_can_phone_number",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0WqnpbXbT5qj5W4rbgeNGi"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This  parser parses Canadian phone number ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.556Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,111 @@
+{
+  "objectInfo" : {
+    "id" : "84S2QBeLs2NbKFrFwUTq8R",
+    "name" : "mplt_CAN_Gender_Assignment",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000Y"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet assigns the gender.  \nAn example, a name of John Smith will be assigned a gender of M for male.\n\nTags: Customer, Canada, Profile, North America, Gender, Enrich",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.040Z",
+  "objectRefs" : [ {
+    "id" : "3IMCoVwiYgedzdZWydiXa4",
+    "name" : "p_Assign_Firstname_Gender_Can",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3IMCoVwiYgedzdZWydiXa4"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns gender on the basis of Firstname for Canada ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "3nKH82gLaTMkjXsx7vByyU",
+    "name" : "p_Assign_Prename_Gender_can",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3nKH82gLaTMkjXsx7vByyU"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The parser assigns gender on the basis of prename ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "aVRsjkluxpslK6K2SoKIm5",
+    "name" : "mplt_Replace_Limited_Punct_with_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000P"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet replaces certain punctuation with a single space, but not all.  Punctuation replaced includes:\n/, \\, ., !, _ and two, three and four consecutive spaces.\n\nTags: Accuracy, Conformity/Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "9yKnyrZRqTOlakgkOTTFqq",
+    "name" : "p_Assign_Midname_Gender_Can",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9yKnyrZRqTOlakgkOTTFqq"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "the parser assigns gender on the basis of mid name for Canada  ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "20JlZs5MCiukMCX8uXAE6T",
+    "name" : "mplt_BRA_Gender_Assingment",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000001F"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet assigns the gender based on the first name and if the last name contains Junior or other similar words.\n\nTags: Matching, Address, Customer, Name, Great Britain, Europe, UK",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.825Z",
+  "objectRefs" : [ {
+    "id" : "6xLrpsEi8sObID3OpL7g2s",
+    "name" : "c_BRA_Lookup_Gender",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6xLrpsEi8sObID3OpL7g2s"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Identifies the gender for given Brazilian name input",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "agnZFrUhz7GlzzSG0WDrK7",
+    "name" : "rs_Title_Case",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "agnZFrUhz7GlzzSG0WDrK7"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Converts given input to titlecase.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

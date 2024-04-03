@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "fscnucOdTuBeGxslGsImkK",
+    "name" : "mplt_USA_IMO_Familyname_and_Address_Match",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000035"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet finds duplicate rows of personal surname and US address data grouped by the first three digits of the postcode and the surname.\n\nTags: North America, Customer, Name, Address, USA, Matching",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.559Z",
+  "objectRefs" : [ {
+    "id" : "7QL1uYoRNXjcr7VQkVY0Ms",
+    "name" : "dedupe_US_IMO_Fam_Name_Address_Match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7QL1uYoRNXjcr7VQkVY0Ms"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches family name and address using Address_Part1 as key.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

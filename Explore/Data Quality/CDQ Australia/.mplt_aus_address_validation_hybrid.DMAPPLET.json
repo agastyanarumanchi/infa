@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "3JxIfHSgxSof43lTBDGnAq",
+    "name" : "mplt_aus_address_validation_hybrid",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000009R"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet validates Australia address data which is in hybrid format, meaning fields with combined street data and discrete fields for city, state and zip code.\n\nTags:  Australia, Address, Accuracy, Conformity, Validity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.686Z",
+  "objectRefs" : [ {
+    "id" : "7QK45MvdlgVkqqxWVwXDOc",
+    "name" : "mplt_AV6_Assign_DQ_Status_Code_Description",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000008Q"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Describes the Match Score value that a verifier asset returns for the AV6 engine.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "hJT62PF8ra3cxuqlFB87sF",
+    "name" : "v_aus_address_validation_hybrid",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hJT62PF8ra3cxuqlFB87sF"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verifies Australian address in Hybrid format, forcing the country to Australia",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

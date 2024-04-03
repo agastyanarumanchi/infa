@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "5PbtVe5ziMKdPMuS13sOSD",
+    "name" : "c_aus_get_company_name_std",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5PbtVe5ziMKdPMuS13sOSD"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes company name for Australia.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.318Z",
+  "objectRefs" : [ {
+    "id" : "a4MiqGmCWaFbxSvwpNcziU",
+    "name" : "aus_company_name_std_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "a4MiqGmCWaFbxSvwpNcziU"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Containing a sample of company names and alternatives. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

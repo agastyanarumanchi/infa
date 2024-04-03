@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "06aYVltwsFAiVfgQYFHgyt",
+    "name" : "mplt_GBR_IMO_Company_Name_Address_Match",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007X"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet finds duplicate rows of Company name and GBR address data.\n\nTags: UK, Great Britain, Company, Address, Matching, Europe",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.322Z",
+  "objectRefs" : [ {
+    "id" : "21ZbeEYZXKyk88ViIgjjeE",
+    "name" : "dedupe_GBR_IMO_Comp_Name_Addr_Match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "21ZbeEYZXKyk88ViIgjjeE"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Does an IMO match on company name and Address for GBR.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  }, {
+    "id" : "3hrgSAfxnI7gvZCrGK78uQ",
+    "name" : "c_Remove_Extra_Spaces",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3hrgSAfxnI7gvZCrGK78uQ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces multiple consecutive spaces with a single space and trims leading and trailing spaces.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

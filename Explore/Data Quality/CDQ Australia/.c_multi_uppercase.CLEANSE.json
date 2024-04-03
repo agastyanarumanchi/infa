@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "8wibRMCb0O7h2cm2UCIEIM",
+    "name" : "c_multi_uppercase",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8wibRMCb0O7h2cm2UCIEIM"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Converts case to upper for 6 input fields.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.317Z",
+  "objectRefs" : [ ]
+}

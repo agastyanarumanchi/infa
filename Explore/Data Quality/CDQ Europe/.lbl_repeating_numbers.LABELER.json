@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "03bvJwrNT4Mlsv2oYw3pYC",
+    "name" : "lbl_repeating_numbers",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "03bvJwrNT4Mlsv2oYw3pYC"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The labeler uses a set list of repeating patterns that are labelled for the Spain CIF.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.833Z",
+  "objectRefs" : [ ]
+}

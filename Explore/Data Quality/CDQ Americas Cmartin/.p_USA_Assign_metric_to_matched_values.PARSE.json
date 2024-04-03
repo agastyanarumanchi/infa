@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "8EGCCSbrmJbdLWecBborgo",
+    "name" : "p_USA_Assign_metric_to_matched_values",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8EGCCSbrmJbdLWecBborgo"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The parser assigns a metric based on the  reference table USA_Name_Frequencies.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.365Z",
+  "objectRefs" : [ {
+    "id" : "2X209k8pYShjOWtKQ5j8aw",
+    "name" : "usa_name_frequencies_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2X209k8pYShjOWtKQ5j8aw"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table contains the list of US names along with their frequencies.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

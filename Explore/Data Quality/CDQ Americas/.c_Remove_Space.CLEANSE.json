@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1eqHIvaGVX3iIRr33QbJqP",
+    "name" : "c_Remove_Space",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1eqHIvaGVX3iIRr33QbJqP"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all occurrences of a space from the input field.\n",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.318Z",
+  "objectRefs" : [ ]
+}

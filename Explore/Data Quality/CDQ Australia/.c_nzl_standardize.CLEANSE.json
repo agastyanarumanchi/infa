@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1tWRDZ3nEZwgVuNN2SbuKd",
+    "name" : "c_nzl_standardize",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1tWRDZ3nEZwgVuNN2SbuKd"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces multiple zeros at the start of a string with a single zero.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.679Z",
+  "objectRefs" : [ ]
+}

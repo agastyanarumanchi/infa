@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "65nRcZcV6RffHVyeXbyYIF",
+    "name" : "mplt_USA_Phone_w_Extension_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000C"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This maplet parses a phone number which may include an extension, that follows the standard format for the USA from a string of text into its own field.\n\nTags: Accuracy, Integrity/Conformity, PII, USA",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.028Z",
+  "objectRefs" : [ {
+    "id" : "1KsQjVwQVMTevNGngUwSoZ",
+    "name" : "p_usa_phone_w_extension",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1KsQjVwQVMTevNGngUwSoZ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a phone number including an extension for the USA from a larger string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

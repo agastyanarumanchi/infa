@@ -1,0 +1,65 @@
+{
+  "objectInfo" : {
+    "id" : "4o7ukG5jnpbjHmJArUDyCS",
+    "name" : "c_US_Get_Company_Acronym",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4o7ukG5jnpbjHmJArUDyCS"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes company acronyms using usa_company_acronyms_infa.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.477Z",
+  "objectRefs" : [ {
+    "id" : "7meJbBFdvHngVVYp30C64Y",
+    "name" : "usa_company_sufx_abrv_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7meJbBFdvHngVVYp30C64Y"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table contains list of abbreviations used for company suffix.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "liK94CUsVu3kfDEjyh6WiW",
+    "name" : "usa_company_acronyms_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "liK94CUsVu3kfDEjyh6WiW"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This dictionary contains a list of US company name and their acronyms.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

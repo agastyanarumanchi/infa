@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "bPg06RddXsGfphmPwjFMqC",
+    "name" : "mplt_FRA_Salutation_Assignment",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000058"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet generates a formal and casual greeting.  \nMr. John Smith will get a formal greeting of Cher Mr. Smith, and the casual greeting will be Cher John,.\nNote: The Gender input should be a single char, M or F.\n\nTags : Salutation , France , Conformity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.502Z",
+  "objectRefs" : [ {
+    "id" : "2rmhQOfqWuSke3gwalli21",
+    "name" : "c_remove_ltd_punct_with_space",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2rmhQOfqWuSke3gwalli21"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes limited punctuation and replaces it with a space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Europe"
+  } ]
+}

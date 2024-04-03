@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "a9X0ecWxAUQj5GMsCxmyyc",
+    "name" : "dedupe_BRA_Match_Company_and_Address",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "a9X0ecWxAUQj5GMsCxmyyc"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Brazil Company Name and Address match with Company Name field as index.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.513Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "2TmTRA4cIGPbkWLqHrcoqY",
+    "name" : "dedupe_GBR_Familyname_NINO_Match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2TmTRA4cIGPbkWLqHrcoqY"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches GBR Family Name to NINO value.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.058Z",
+  "objectRefs" : [ ]
+}

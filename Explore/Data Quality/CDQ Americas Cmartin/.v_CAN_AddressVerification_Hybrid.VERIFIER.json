@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "dA5pbcbt1Ubfa1OMSCAbMd",
+    "name" : "v_CAN_AddressVerification_Hybrid",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "dA5pbcbt1Ubfa1OMSCAbMd"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The verifier validates Canadian address in hybrid format ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.172Z",
+  "objectRefs" : [ ]
+}

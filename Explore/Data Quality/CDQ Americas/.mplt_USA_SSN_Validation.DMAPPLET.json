@@ -1,0 +1,108 @@
+{
+  "objectInfo" : {
+    "id" : "7UxW593g08ig6MgS5twMul",
+    "name" : "mplt_USA_SSN_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000013"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet checks the Area (first 3 numbers) and Group (middle 2 numbers) are a valid combination and other checks for all 0s.  It does not check if the SSN is an issued number.  Rule accurately validates SSNs issued prior to June 25, 2011due to SSN Randomization.  See Docket No. SSA 2007-0046 for more information.\n\nTags: SSN, Tax, USA, Validate, North America, Customer, National Id, Profile",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.855Z",
+  "objectRefs" : [ {
+    "id" : "2KNQU6HgNQ1gSnhBtYeIms",
+    "name" : "dq_Index_for_Group",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2KNQU6HgNQ1gSnhBtYeIms"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Returns the index for the group.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "kSShwYPbeeXlhzjoozOASi",
+    "name" : "c_SSN_Group_From_Area",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kSShwYPbeeXlhzjoozOASi"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Returns the group from the area code.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "iAt1MBAScy0gr0DAR89ZWl",
+    "name" : "c_Label_Characters",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "iAt1MBAScy0gr0DAR89ZWl"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns a Label  \"X\" t o a character.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "9n1EbiVPHWqiO30Su9cCqW",
+    "name" : "c_SSN_Max_Index_For_Group",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9n1EbiVPHWqiO30Su9cCqW"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Returns  index for a group.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

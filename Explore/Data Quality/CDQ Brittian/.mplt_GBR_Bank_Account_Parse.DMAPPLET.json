@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "9geic6Zyiaxjhkbn04zzuS",
+    "name" : "mplt_GBR_Bank_Account_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007Z"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rules parse a UK Bank account number from a longer string. Bank account numbers are typically just an 8 digit string. \nAs a result, this rule will parse any 8 digit string contained in the full text as a bank account number.\n\nTags: Finance, UK, Parse, Europe, Great Britain",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.512Z",
+  "objectRefs" : [ {
+    "id" : "1BRDQCTyoCUb7j5gyIE2CD",
+    "name" : "p_Parse_GBR_Acct_Number",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1BRDQCTyoCUb7j5gyIE2CD"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses the Account Number for GBR.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "2cZEZccOv8KkyWf9vPb6KQ",
+    "name" : "mplt_USA_IMO_Individual_Name_and_Address_Match",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000T"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet finds duplicate rows of personal name and US address data by using the Identity Match Option.\n\nTags: Customer, North America, USA, Name, Matching, Address",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.255Z",
+  "objectRefs" : [ {
+    "id" : "88PYnH95W6cg0u6nfNsXKN",
+    "name" : "dedupe_US_IMO_Indiv_Name_Address_Match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "88PYnH95W6cg0u6nfNsXKN"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches individual name and address with Address Part1 as key.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

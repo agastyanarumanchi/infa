@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "49LdBlDHv1wjV7AAGydAEk",
+    "name" : "c_SR_FullName",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "49LdBlDHv1wjV7AAGydAEk"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes full name.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.894Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "kJ0nRi6ckY5fgTJMiwZOaW",
+    "name" : "c_Remove_Extra_Spaces",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kJ0nRi6ckY5fgTJMiwZOaW"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces multiple consecutive spaces with a single space and trims leading and trailing spaces.\n",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.173Z",
+  "objectRefs" : [ ]
+}

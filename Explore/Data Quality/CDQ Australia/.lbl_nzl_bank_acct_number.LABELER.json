@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7TArThX0kFyetrsOw6sZgw",
+    "name" : "lbl_nzl_bank_acct_number",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7TArThX0kFyetrsOw6sZgw"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates a New Zealand bank account number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.033Z",
+  "objectRefs" : [ ]
+}

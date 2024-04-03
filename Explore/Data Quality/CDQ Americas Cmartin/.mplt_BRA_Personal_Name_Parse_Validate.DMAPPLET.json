@@ -1,0 +1,211 @@
+{
+  "objectInfo" : {
+    "id" : "5XQSfL1HGsRbUSKOpWGIQo",
+    "name" : "mplt_BRA_Personal_Name_Parse_Validate",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000004Z"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet parses Brazilian names input in a single field into separate components and provides \ninformation on if the spelling was corrected or if the data might be a potential company name.\n\nTags: Customer, Name, Validate, Parse, Profile, Brazil",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.515Z",
+  "objectRefs" : [ {
+    "id" : "2s2AVb4H8YhjiV78knPiAx",
+    "name" : "c_BRA_Detect_Company_Names",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2s2AVb4H8YhjiV78knPiAx"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Detects Brazilian company names.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "hEmBEIsNgknjpsPDvL9iS2",
+    "name" : "p_BRA_parse_NameDesignator",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hEmBEIsNgknjpsPDvL9iS2"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses name designator for Brazil.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "0kF0DUMXRbHlN8mD9KxEya",
+    "name" : "c_BRA_Correct_Misspellings_Names",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0kF0DUMXRbHlN8mD9KxEya"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Correct Brazilian misspelt names. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "i5aQAWtVZSbjIvHjD9WGiq",
+    "name" : "p_BRA_Parse_PostName",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "i5aQAWtVZSbjIvHjD9WGiq"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses Brazil postname.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "1TaL6LXtcUVlt8nzxMKsgF",
+    "name" : "c_BRA_Correct_Misspellings_Name_Status",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1TaL6LXtcUVlt8nzxMKsgF"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes misspelt names for Brazil.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "jwqf0EpgushfWzpt2TczQC",
+    "name" : "c_Remove_Bad_Characters",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "jwqf0EpgushfWzpt2TczQC"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all bad characters i.e. symbols.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "54XaYX9kUBweD0ThtUTH6G",
+    "name" : "c_Uppercase",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "54XaYX9kUBweD0ThtUTH6G"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Converts input text to Upper Case format.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "1R5vk8GzSmPcunpRrm4REC",
+    "name" : "mplt_BRA_Gender_Assingment",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000003R"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet assigns the gender based on the first name and if the last name contains Junior or other similar words.\n\nTags: Matching, Address, Customer, Name, Great Britain, Europe, UK",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  }, {
+    "id" : "f7x1bQrZ8qadqAI2oHEqC1",
+    "name" : "p_BRA_Parse_Prename",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "f7x1bQrZ8qadqAI2oHEqC1"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "parses Brazil prename.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

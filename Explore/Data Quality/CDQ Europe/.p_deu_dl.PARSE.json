@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "aWGfvSFX2G3euLZkvBtGw1",
+    "name" : "p_deu_dl",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "aWGfvSFX2G3euLZkvBtGw1"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a German driving license number from a longer string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.883Z",
+  "objectRefs" : [ ]
+}

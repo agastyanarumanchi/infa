@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "2eJxt1TUkQag18kNFQmtoW",
+    "name" : "c_US_Lbl_OLN2",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2eJxt1TUkQag18kNFQmtoW"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labels US surname.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.514Z",
+  "objectRefs" : [ {
+    "id" : "7k94ktLqF3LfJ5ffoHKFmz",
+    "name" : "usa_surnames_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7k94ktLqF3LfJ5ffoHKFmz"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table contains list of surnames in US.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

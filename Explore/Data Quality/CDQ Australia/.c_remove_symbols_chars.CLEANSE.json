@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "5lw7kHOTMsVclN91o87haT",
+    "name" : "c_remove_symbols_chars",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5lw7kHOTMsVclN91o87haT"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Remove the symbols and letters",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.177Z",
+  "objectRefs" : [ ]
+}

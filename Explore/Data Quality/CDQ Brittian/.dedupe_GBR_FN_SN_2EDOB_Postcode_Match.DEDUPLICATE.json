@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "8ULOIwz9ky0j0XoIduwWOp",
+    "name" : "dedupe_GBR_FN_SN_2EDOB_Postcode_Match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8ULOIwz9ky0j0XoIduwWOp"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches Names, 2 Elements DOB and Postcode for GBR. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.167Z",
+  "objectRefs" : [ ]
+}

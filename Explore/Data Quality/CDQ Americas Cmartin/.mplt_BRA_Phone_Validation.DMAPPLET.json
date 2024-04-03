@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "6fCbVPrtBnpdHgTA2SZTcH",
+    "name" : "mplt_BRA_Phone_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000003K"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet validates the area-code and length of a phone number.\n\nTags: Company, Brazil, Phone, Validate, Customer, Profile\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.892Z",
+  "objectRefs" : [ {
+    "id" : "0JgebQ8qjiefWbchrgCLWQ",
+    "name" : "c_BRA_Lbl_Lookup_Area_Code",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0JgebQ8qjiefWbchrgCLWQ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Returns the corresponding area name from area code for Brazil.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

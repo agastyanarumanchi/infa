@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "hlU9NYUVO09klA4SWpy4ey",
+    "name" : "dedupe_aus_personal_name_data",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hlU9NYUVO09klA4SWpy4ey"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Australia personal name match.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.478Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "09116447UO1g6Olpv2Dk8m",
+    "name" : "p_GBR_ParseFullName",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "09116447UO1g6Olpv2Dk8m"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Multiname parse",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.438Z",
+  "objectRefs" : [ ]
+}

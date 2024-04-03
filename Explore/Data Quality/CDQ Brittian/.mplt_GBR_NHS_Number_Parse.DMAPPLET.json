@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "4v55TUsjn2We6KhF22k2QA",
+    "name" : "mplt_GBR_NHS_Number_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006X"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule parses and NHS number from a longer string.\n\nTags: Contact,GBR,UK,Accuracy,Conformity/Validity,Integrity/Conformity",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.549Z",
+  "objectRefs" : [ {
+    "id" : "4Ig8T7ARA2Xieu0l3xZ2a7",
+    "name" : "p_NHS_Number",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4Ig8T7ARA2Xieu0l3xZ2a7"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parser used a regex to parse GBR NHS number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

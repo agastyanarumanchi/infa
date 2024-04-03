@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1xbGOJ9u7UEfOvkbo1gvw6",
+    "name" : "p_esp_nie",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1xbGOJ9u7UEfOvkbo1gvw6"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses an Spain NIE number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.188Z",
+  "objectRefs" : [ ]
+}

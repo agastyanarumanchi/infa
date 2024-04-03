@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "5Jg6HKI2Rxzj7yj9grc4w8",
+    "name" : "p_GBR_Postcode_Validate_Format",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5Jg6HKI2Rxzj7yj9grc4w8"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a GBR postcode that matches the GBR postcode formats",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.495Z",
+  "objectRefs" : [ ]
+}

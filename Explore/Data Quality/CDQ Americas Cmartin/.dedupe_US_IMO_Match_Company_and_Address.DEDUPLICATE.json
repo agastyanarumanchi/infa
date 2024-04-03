@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "iNxAvACB1SOhCdzt7lUf4R",
+    "name" : "dedupe_US_IMO_Match_Company_and_Address",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "iNxAvACB1SOhCdzt7lUf4R"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches US company name and address.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.443Z",
+  "objectRefs" : [ ]
+}

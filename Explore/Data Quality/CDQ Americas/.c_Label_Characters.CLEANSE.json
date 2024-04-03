@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "iAt1MBAScy0gr0DAR89ZWl",
+    "name" : "c_Label_Characters",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "iAt1MBAScy0gr0DAR89ZWl"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns a Label  \"X\" t o a character.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.822Z",
+  "objectRefs" : [ ]
+}

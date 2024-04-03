@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "3ObSjuvSvBAgcZvt7JP4qE",
+    "name" : "p_aus_crn",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3ObSjuvSvBAgcZvt7JP4qE"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses Australian Customer Reference Number (CRN) which consists of 9 digits and an alphabet at the end. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.173Z",
+  "objectRefs" : [ ]
+}

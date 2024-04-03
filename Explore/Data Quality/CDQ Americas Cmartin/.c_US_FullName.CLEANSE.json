@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "5M1gDRmgXaNkn29cOl9UiQ",
+    "name" : "c_US_FullName",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5M1gDRmgXaNkn29cOl9UiQ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labels US full name.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.434Z",
+  "objectRefs" : [ ]
+}

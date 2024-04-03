@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "eeDi3wUZvEbklXKBTVMPAK",
+    "name" : "dedupe_GBR_Familyname_Postcode_Match",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "eeDi3wUZvEbklXKBTVMPAK"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Matches GBR records based on matching Family Name and Postcode. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.054Z",
+  "objectRefs" : [ ]
+}

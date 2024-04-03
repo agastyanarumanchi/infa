@@ -1,0 +1,151 @@
+{
+  "objectInfo" : {
+    "id" : "gCfOHDdYeoDcWypGoqTZaU",
+    "name" : "mplt_nzl_phone_number_validate",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000008Z"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This rule will validate the area code of a NZL phone number and return the associated region and status. \nThe rule assumes that the phone number matches the phone pattern that would be identified by the NZL Phone Parse rule.\nE.g. 642123456, + 642123456 \n\nTags: Validity, New Zealand",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.498Z",
+  "objectRefs" : [ {
+    "id" : "1tWRDZ3nEZwgVuNN2SbuKd",
+    "name" : "c_nzl_standardize",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1tWRDZ3nEZwgVuNN2SbuKd"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces multiple zeros at the start of a string with a single zero.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "69VDZNqkruQk6e1UBqghG6",
+    "name" : "mplt_Remove_Non_Numbers",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000006N"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all characters that are not a digit or number from an input string.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "ioZEG7zIps3c2orQ6qRdKK",
+    "name" : "p_nzl_area_codes",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "ioZEG7zIps3c2orQ6qRdKK"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses specific telephone codes.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "lLGIVLK1ks0hgnsCsEOpeL",
+    "name" : "c_nzl_remove_intl_dialing_prefix",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "lLGIVLK1ks0hgnsCsEOpeL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The cleanse asset removes New Zealand international dialing prefixes.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "2yAPnbz2rsQiuMvV6B2jAs",
+    "name" : "c_nzl_areacode_region",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2yAPnbz2rsQiuMvV6B2jAs"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Return name of the area code from the area code dialing prefix ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  }, {
+    "id" : "2YaGHGKaDAzfg3aceJ5Xm1",
+    "name" : "lbl_nzl_phone",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2YaGHGKaDAzfg3aceJ5Xm1"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Labels a New Zealand phone number.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Australia"
+  } ]
+}

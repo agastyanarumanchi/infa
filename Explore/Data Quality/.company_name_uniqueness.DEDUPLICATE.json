@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "3ScgBJpxvr5g2PXLQljH6c",
+    "name" : "company_name_uniqueness",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3ScgBJpxvr5g2PXLQljH6c"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.495Z",
+  "objectRefs" : [ ]
+}

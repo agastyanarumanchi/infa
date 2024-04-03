@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "9FytmCUpWuhclmSYSDMLEG",
+    "name" : "dedupe_aus_individual_name_date",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9FytmCUpWuhclmSYSDMLEG"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Australia individual name and date match.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.554Z",
+  "objectRefs" : [ ]
+}

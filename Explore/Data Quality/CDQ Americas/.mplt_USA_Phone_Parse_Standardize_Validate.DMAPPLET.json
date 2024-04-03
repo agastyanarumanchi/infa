@@ -1,0 +1,97 @@
+{
+  "objectInfo" : {
+    "id" : "acmOPYWarPLdKHqBVvaX82",
+    "name" : "mplt_USA_Phone_Parse_Standardize_Validate",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000002E"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet will parse a US phone number from string of text, validates the area code is valid for the US, and if it is valid,\nreturns the phone number in three different standard formats.  Also returns the status value (Valid / Invalid) and a\nstatus description.\n\nTags: Integrity/Conformity, Accuracy, Conformity/Validity, USA",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.365Z",
+  "objectRefs" : [ {
+    "id" : "8Q70Aht2425h4KpWKvttEC",
+    "name" : "mplt_USA_Phone_Number_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000017"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet validates the area code for US phone numbers.\nQuality scores are:  0 - NULL or blank input\n\t\t\t\t\t10 - Invalid length\n\t\t\t\t\t40 - Valid length, Invalid Area Code\n\t\t\t\t\t95\t- Valid length and Area Code\n\nTags: Accuracy, Conformity/Validity, Consistency",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "6DSkPY76I7yhaeUe6Zu8I5",
+    "name" : "mplt_USA_Phone_Number_Standardization",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T2640000000000006"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet standardizes the format of the phone string to have \nstandard - (nnn) nnn-nnnn\ndashes - nnn-nnn-nnnn\nno spaces - nnnnnnnnnn\nPhone_w_Extension  - (nnn) nnn-nnnn ext nnnnn\n\nTags: Standardize, USA, Customer, North America, Company, Phone",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  }, {
+    "id" : "65nRcZcV6RffHVyeXbyYIF",
+    "name" : "mplt_USA_Phone_w_Extension_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000C"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This maplet parses a phone number which may include an extension, that follows the standard format for the USA from a string of text into its own field.\n\nTags: Accuracy, Integrity/Conformity, PII, USA",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas"
+  } ]
+}

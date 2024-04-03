@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "3m4zfV217gjlhsVdwRYa8I",
+    "name" : "mplt_USA_SSN_Validation_post_June2011",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000000A"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule validates a Social security number for length, numeric values and known min/max values of the area, group and serial number sections.  It does not check if the SSN is an issued number and no longer validates the group and area number combination due to SSN Randomization effective June 25, 2011.  See Docket No. SSA 2007-0046 for more information.\n\nTags: Accuracy, Conformity/Validity, Restricted, PII, USA",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:47.547Z",
+  "objectRefs" : [ ]
+}

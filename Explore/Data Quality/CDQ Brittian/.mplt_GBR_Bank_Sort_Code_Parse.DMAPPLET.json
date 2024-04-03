@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "9FdlKJafhy3gYAmhEd2Usu",
+    "name" : "mplt_GBR_Bank_Sort_Code_Parse",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T264000000000007W"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule parse UK Bank sort codes from a longer string. Rule can parse 99-99-99 or 999999 formatted sort codes. \nAs a result, any 6 digit number in the string may be parsed as a sort code.\n\nTags: Europe, Great Britain, Parse, UK, Finance",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-04-03T14:44:46.899Z",
+  "objectRefs" : [ {
+    "id" : "7IfT9Tgj5PjbIugzp0sC0j",
+    "name" : "p_Parse_GBR_Bank_Sort_Code",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7IfT9Tgj5PjbIugzp0sC0j"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses the bank sort code for GBR.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Brittian"
+  } ]
+}

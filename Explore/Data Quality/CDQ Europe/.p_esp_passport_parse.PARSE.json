@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "5VswpkYCCKflIRZcbq2nmT",
+    "name" : "p_esp_passport_parse",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5VswpkYCCKflIRZcbq2nmT"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses Spain Passport number from input data.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.502Z",
+  "objectRefs" : [ ]
+}

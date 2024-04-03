@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "bGyIju3x9A5fJeq1S75r8O",
+    "name" : "can_gender_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "bGyIju3x9A5fJeq1S75r8O"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "this reference table contains list of  genders on the basis of  name  for Canada ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.682Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "f6bZFoJi6Kid5bb5wwqLqx",
+    "name" : "dq_av_match_code_descriptions_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "f6bZFoJi6Kid5bb5wwqLqx"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table has 'Match Code' output values and identifies the process modes that return the values.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.171Z",
+  "objectRefs" : [ ]
+}

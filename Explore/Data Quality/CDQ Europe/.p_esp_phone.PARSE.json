@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "k1WP16svTuWfHsJKTj5eaz",
+    "name" : "p_esp_phone",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "k1WP16svTuWfHsJKTj5eaz"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a phone number for Spain from a string input.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.056Z",
+  "objectRefs" : [ ]
+}

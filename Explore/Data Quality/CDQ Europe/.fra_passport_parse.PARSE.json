@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "6r3fw9LL6IQgns1wiEDMUL",
+    "name" : "fra_passport_parse",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6r3fw9LL6IQgns1wiEDMUL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses France Passport number from input data.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.315Z",
+  "objectRefs" : [ ]
+}

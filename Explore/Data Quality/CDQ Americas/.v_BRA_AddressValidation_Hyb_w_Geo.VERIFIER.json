@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "lrEPOggQISHczo9wUvF0YS",
+    "name" : "v_BRA_AddressValidation_Hyb_w_Geo",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "lrEPOggQISHczo9wUvF0YS"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verifies Brazilian address in hybrid format with geocode. ",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.500Z",
+  "objectRefs" : [ ]
+}

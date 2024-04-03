@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "7hURkpt30wEiSLMb0im6W4",
+    "name" : "p_USA_gender_Assingment_Prename",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7hURkpt30wEiSLMb0im6W4"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns Gender based on prename",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:47.025Z",
+  "objectRefs" : [ {
+    "id" : "9cHoQniB9mbfjHEoggw2oc",
+    "name" : "usa_prename_gender_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9cHoQniB9mbfjHEoggw2oc"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This reference table associates gender on the basis of prename.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Data Quality/CDQ Americas Cmartin"
+  } ]
+}

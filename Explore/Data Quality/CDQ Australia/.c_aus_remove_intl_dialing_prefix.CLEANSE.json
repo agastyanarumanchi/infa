@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "14OqbQcWEOygmyveZ34YYj",
+    "name" : "c_aus_remove_intl_dialing_prefix",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "14OqbQcWEOygmyveZ34YYj"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Remove variations of the Australian international dialing code from the start of the input string e.g. +61, 0061, 61",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-04-03T14:44:46.697Z",
+  "objectRefs" : [ ]
+}
